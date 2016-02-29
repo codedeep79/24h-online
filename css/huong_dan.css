@@ -1,0 +1,246 @@
+.head{
+	
+	}
+.wrap-head-1{
+	
+	}
+.head .collapse ul li{
+	border-right:2px dashed #CCCCCC;
+	}
+.head .collapse ul li a:hover{
+	border-top:4px solid #333;
+	background:#FFF;
+	color:#66C;
+	font-weight:bold;
+	}
+.form-horizontal{
+	margin-left:15px;
+	padding:20px;
+	}
+/*image--------------------------------logo*/
+.logo{
+	position:relative;
+	background:url(../images/bg/bg.jpg) top left repeat;
+	}
+.logo img{
+	border-left:4px solid #CCC;
+	margin-top:0px;
+	}
+.logo .search{
+	width:750px;
+	height:60px;
+	top:50px;
+	right:10px;
+	position:absolute;
+	background:#096;
+	border-radius:10px 10px;
+	}
+.logo input{
+	float:right;
+	width:600px;
+	top:10px;
+	left:50px;
+	position:absolute;
+	}
+.logo .tim_kiem{
+	border:2px solid #CCC;
+	width:80px;
+	height:40px;
+	right:5px;
+	top:9px;
+	position:absolute;
+	vertical-align:middle;
+	font:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	background:#F63;
+	}
+
+
+/*-----------------------Content-------------------------*/
+.content{
+	position: relative;
+	}
+.content .content_right{
+	width :850px;
+	height:700px;
+	float:right;
+	margin-top:-200px;
+	margin-left:20px;
+	
+	}
+.content .content_right .input-group{
+	
+	margin-top:10px;
+	
+	
+	}
+.content .content_right .col-md-9{
+	width :850px;
+	height:600px;
+	border:2px solid #333;
+		}
+/*-------------menu---------------------*/
+
+.content .menu_left{
+	width:200px;
+	}
+
+.menu_left ul li .sach{
+	top:1px;
+	left:200px;
+	position:absolute;
+	width:350px;
+	height:207px;
+	background: #FFF;
+	border-right:5px solid #CCC;
+	display:none;
+	z-index:9999999;
+	height:220px;
+	width:600px;
+
+	}
+.menu_left ul li .sach img{
+	top:0px;
+	right:0px;
+	position:absolute;
+	}
+.menu_left ul li:hover .sach{
+				display:block;
+	}
+
+.menu_left ul li .sach li{
+	list-style:none;
+	font-size:16px;
+	padding:10px;
+	font-weight:bold;
+	font-style:italic;
+	border-bottom:2px solid #CCC;
+	}
+.menu_left ul li .sach li:hover{
+	background: #CCC;
+	}
+.menu_left ul li .sach li a{
+		text-decoration:none;
+		display:block;
+		color: #900;
+
+	}
+
+
+	<!--dong_ho--------------------------------------------->
+	.menu_left ul li .dong_ho{
+		background:#F9C;
+		}
+	.menu_left ul li .dong_ho li{
+	list-style:none;
+	font-size:16px;
+	padding:10px;
+	font-weight:bold;
+	font-style:italic;
+	
+	}
+.menu_left ul li  .dong_ho li:hover{
+	background: #639;
+	
+	}
+.menu_left ul li  .dong_ho li a{
+		text-decoration:none;
+		display:block;
+		color:#033;
+	}
+
+			/*-----Thoi trang cua index*/
+.tt_home{
+	border:2px solid #666;
+	z-index:1000;
+	}
+.tt_home img:hover{
+	transform:scale(1.3,1);
+	-webkit-transform:scale(1.3,1);
+	-moz-transform:scale(1.3,1);
+	-ms-transform:scale(1.3,1);
+	-o-transform:scale(1.3,1);
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	}
+/*-----------------------Outlet-------------------*/
+.outlet_home{
+	position:relative;
+	width:100%;
+	}
+.outlet_home img{
+		margin-left:20px;
+		background:#999;
+		margin-top:10px;
+	}
+.outlet_home p{
+		position:absolute;
+		top:23px;
+		left:81px;
+		font-size:20px;
+	}
+.outlet_home .outlet_home_center{
+		height:301px;
+		background:#C99;
+	}
+.outlet_home .outlet_home_center .col-md-6 span{
+	font-size:15px;
+	color:#333;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style:italic;
+	}
+/*---------------------Sản phẩm được ưa chuộng*/
+ .sp_uachuong .col-md-12{
+		background: #CCC;
+	}
+.sp_uachuong >p{
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size:18px;
+	border-bottom:2px solid #333;
+	background:#330;
+	color: #3F3;
+	height:30px;
+	line-height:30px;
+	font-style:italic;
+	padding-left:20px;
+	text-transform:uppercase;
+	}
+
+/*------------------Tin công nghệ-------------*/
+.news {
+	
+	}
+.news >p {
+		font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+		background: #930;
+		color: #006;
+		height:30px;
+		line-height:30px;
+		padding-left:20px;
+	}
+.news .col-md-7{
+	border:2px solid #CCC;
+	}
+.news .col-md-4{
+	border:2px solid #CCC;
+	height:500px;
+	overflow:scroll;
+	}
+/*-------------------------------footer-----------------*/
+.footer{
+	background:  #FF9;
+	padding:30px;
+	}
+.footer-1 p{
+	color:#930;
+	font:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	}
+.footer-2 p{
+	color: #903;
+	font:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	}
+.footer-3 img{
+	margin-bottom:13px;
+	}

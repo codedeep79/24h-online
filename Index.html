@@ -1,0 +1,605 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shop 24h</title>
+
+<link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap-3.3.6-dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+<link rel="stylesheet" type="text/css" href="css/style_bootstrap.css">
+<link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+<script src="Bootstrap/bootstrap-3.3.6-dist/js/jquery.min.js"></script>
+<script src="Bootstrap/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="wow/animate.css">
+<script src="wow/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+<link rel="stylesheet" type="text/css" href="css/flickity.css">
+<script src="js/flickity.pkgd.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+
+<body  style="background:url(images/bg/quadrillebeige01.jpg)">
+<div class="container" style="background:#FFF">
+	<div class="col-sm-12 col-md-12">
+    	<!--head----------------------------------->
+        <div class="head">
+                <nav class="navbar navbar-default">
+                		<div class="navbar-header">
+                        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu_1">
+                            		<span class=" icon-bar"></span>
+                                    <span class=" icon-bar"></span>
+                                    <span class=" icon-bar"></span>
+                                    <span class=" icon-bar"></span>
+                                    <span class=" icon-bar"></span>
+                            </button>
+                        </div>
+                     <div class="wrap-head-1">
+                        <div class="collapse navbar-collapse" id="menu_1">
+                        		<ul class="nav navbar-nav">
+                                	<li><a href="#" data-toggle="modal" data-target=".kiem_tra">Kiểm tra đơn hàng</a>
+                                    		<div class="modal fade kiem_tra" role="dialog">
+                                            	<div class=" modal-dialog">
+                                                	<div class="modal-content">
+                                                    		<div class="modal-header">
+                                                            	<button class="btn btn-info close" data-dismiss="modal">
+                                                                	&times;
+                                                                </button> 
+                                                                <b>Kiểm tra đơn hàng</b>
+                                                					
+                                                            </div>
+                                                            
+                                                            <div class="modal-body">
+                                                            	<form class="form-horizontal">
+                                                                	<div class="form-group">
+                                                                    	<label>Email:</label>
+                                                                        <input type="text" class="form-control" placeholder="Email..">
+                                                                    </div>
+                                                                    
+                                                                    <div class="form-group">
+                                                                    	<label>Mã đơn hàng:</label>
+                                                                        <input type="text" class="form-control" placeholder="Nhập vào mã đơn hàng..">
+                                                                    </div>
+                                                                    <button type="button" class="btn btn-success">Kiểm tra</button>
+                                                                </form>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </li>
+                                    <li><a href="#" data-toggle="modal" data-target=".ma_hang">Tạo khiếu nại</a>
+                                    		<div class="modal ma_hang fade" role="dialog">
+                                            		<div class="modal-dialog">
+                                                    	<div class="modal-content">
+                                                        		<div class="modal-header">
+                                                                 <button class="btn btn-default close" data-dismiss="modal" style="margin-top:2px">&times;</button>
+                                                                	<p><b>Tạo khiếu nại</b></p>
+                                                                   
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                		<form class=" form-horizontal" role="form">
+                                                                        	<div class="form-group">
+                                                                                <label><b><i>Họ và tên</i></b></label>
+                                                                                <input class="form-control" type="text" placeholder="Nhập vào họ và tên....">
+                                                                             </div>
+                                                                             
+                                                                             <div class="form-group">
+                                                                                <label><b><i>Số điện thoại</i></b></label>
+                                                                                <input class="form-control" type="text" placeholder="Nhập vào số điện thoại...">
+                                                                             </div>
+                                                                             
+                                                                             <div class="form-group">
+                                                                                <label><b><i>Số CMND:</i></b></label>
+                                                                                <input class="form-control" type="text" placeholder="Nhập vào số chứng minh nhân dân..">
+                                                                             </div>
+                                                                             	<div class="form-group">
+                                                                                	<label >Mã đơn hàng:</label>
+                                                                                    <input type="text " placeholder="Mã đơn hàng.." class="form-control">
+                                                                                </div>
+                                                                                
+                                                                                <div class="form-group">
+                                                                                	<label> Mã sản phẩm: </label>
+                                                                                    <input type="text " class="form-control" placeholder="Mã sản phẩm">
+                                                                                </div>
+                                                                                <div class="checkbox">
+                                                                                	<b>Vấn đề sản phẩm</b><br/>
+                                                                                    <label><input type="checkbox">Sản phẩm</label><br/>
+                                                                                    <label><input type="checkbox">Chính sách giá</label><br/>
+                                                                                    <label><input type="checkbox">Dịch vụ</label>
+                                                                                </div> 
+                                                                                <b>Nội dung</b><br/> 
+                                                                                <textarea style="width:500px; height:191px"></textarea>
+                                                                                <button type="button" class="btn btn-info">Gửi <span class="glyphicon glyphicon-arrow-right"</button>
+                                                                        </form>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                    </li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-phone"></span><b>Hotline: <span style="color:#00F;">1900-123-123</span></b></a></li>
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                	<li >
+                                    		<a data-toggle="modal" data-target=".dat_hang" style="color:#30F;font-weight:bold; font-style:italic;">Đăng nhập</a>
+                                    		<div class="dat_hang modal fade" role="dialog">
+                                            	<div class="modal-dialog">
+                                                	<div class="modal-content">
+                                                    	<div class="modal-header">
+                                                        	<button type="button" data-dismiss="modal" class="close">&times;</button>
+                                                            <button class="btn btn-success" style="color: #060; font:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif">Login</button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                        		<div class="input-group">
+                                                                	<label>Email (*) <input type="text" class="form-control"> </label>
+                                                                    <label>Password (*) <input type="text" class="form-control"> </label>
+                                                                    <p style="color:#00C; font:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif">Quên mật khẩu</p>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </li>
+                                    <li>
+                                    		<a href="#" data-toggle="modal" data-target=".dang_ky" style="color:#03F;font-weight:bold; font-style:italic;">Đăng ký</a>
+                                    		<div class="modal fade dang_ky">
+                                            	<div class="modal-dialog">
+                                                	<div class="modal-content">
+                                                    	<div class="modal-header">
+                                                        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <button type="button" class="btn btn-info">Registry</button>
+                                                        </div>
+                                                        		
+                                                        <div class="modal-body">
+                                                        		<div class="input-group">
+                                                                	<label>Họ và tên (*) 
+                                                                    	<input type="text" class="form-control">
+                                                                    </label>
+                                                                    <label>Email (*) 
+                                                                    	<input type="text" class="form-control">
+                                                                    </label>
+                                                                    <label>Mật khẩu (*) 
+                                                                    	<input type="password" class="form-control">
+                                                                        <p style="font-size:9px;color:#999">Ít nhất 8 kí tự</p>
+                                                                    </label>
+                                                                     <div class="form-group">
+                                                                         <label >Giới tính (*) 
+                                                                            <select >
+                                                                                <option>Nam</option>
+                                                                                <option>Nữ</option>
+                                                                            </select>
+                                                                        </label>
+                                                                     </div>
+                                                                    <label class="col-md-offset-2">Tôi đã đọc và đồng ý với <a href="#">đều khoản sử dụng</a> của <b>24H ONLINE</b></label>
+                                                                    <button type="button" class="btn btn-danger"><b><i>Đăng ký</i></b></button>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </li>
+                                     <li><a href="#"><span class="glyphicon glyphicon-bell"></span><p class="badge">0</p></a></li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+                                   
+                                </ul>
+                        </div>
+                     </div>
+                </nav> 
+                <div class="logo">
+                	<div class="wow bounceIn" data-wow-duration="2s" ><img src="images/logo.gif" width="200" height="200"  alt="logo" class="img-responsive img-rounded" /></div>
+                    <div class="search">
+                    	<input type="search" class="form-control " placeholder="Search ... " >
+                        <span class="tim_kiem btn btn-danger">Tìm kiếm</span>
+                    </div>
+                </div>
+        </div>
+        <!--content------------------------------->
+        <div class="content">
+        		 <nav class="navbar navbar-default" style="width:125%;margin-left:-150px;  border:1px solid #CCC;">
+                	<div class="navbar-header" style="margin-left:10%;">
+                    	<a  href="Index.html" class="navbar-brand">Danh mục sản phẩm</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                    		<li><a href="#"><b>Hàng mới</b></a></li>
+                            <li><a href="#"><b>Daily deal</b></a></li>
+                            <li><a href="#"><b>Hàng outlet</b></a></li>
+                            <li><a href="#"><b>Tin tức</b></a></li>
+                    </ul>
+                </nav>
+                <div class="menu_left col-md-12">
+                		<ul class="nav nav-pills nav-stacked col-md-3" role="tablist" style="width:235px;" >
+                        	<li class="active"><a href="#" >Danh mục</a></li>
+                            <li>
+                            		<a href="sach_home.html">Sách <span class="glyphicon glyphicon-arrow-right" style="right:2px;top:12px;position:absolute;"></span></a>
+                            		<ul class="sach">
+                                    		<li><a href="tieu_thuyet.html">Tiểu thuyết </a></li>
+                                            <li><a href="sach_chuyen_nghanh_1.html">Sách chuyên nghành </a></li>
+                                            <li><a href="sach_khao_cuu.html">Sách khảo cứu </a></li>
+                                            
+                                            <a href="sach_home.html"> <img src="images/menu/sach.jpg" width="298" height="220"  alt="" class="pull-right"/></a>
+                                    </ul>
+                                  
+                            </li>
+                            <li>
+                            		<a href="donghohome.html">Đồng hồ trang sức<span class="glyphicon glyphicon-arrow-right" 			             				style="right:2px;top:12px;position:absolute;"></span></a>
+                            		<ul class="sach dong_ho">
+                                    		<li><a href="donghonam.html">Đồng hồ nam </a></li>
+                                            <li><a href="donghonu.html">Đồng hồ nữ </a></li>
+                                         
+                                            <a href="donghohome.html"> <img src="images/menu/dong_ho.jpg" width="298" height="220"  alt="" class="pull-right"/></a>
+                                    </ul>
+                                   
+                            </li>
+                            <li>
+                            		<a href="thoitranghome.html">Thời trang<span class="glyphicon glyphicon-arrow-right" 																											    							style="right:2px;top:12px;position:absolute;"></span></a>
+                            		<ul class="sach thoi_trang">
+                                    		<li><a href="thoitrangnam.html">Thời trang nam </a></li>
+                                            <li><a href="thoitrangnu.html">Thời trang nữ </a></li>
+                                           
+                                             <a href="thoitranghome.html"> <img src="images/menu/tt_menu.jpg" width="298" height="220"  alt="" class="pull-right"/></a>
+                                    </ul>
+                            </li>
+                            <li>
+                            			<a href="dung_cu_thi_nghiem.html">Công nghiệp<span class="glyphicon glyphicon-arrow-right"  	     		                    		style="right:2px;top:12px;position:absolute;"></span></a>
+                            			<ul class="sach cong_nghiep">
+                                    		<li><a href="dung_cu_thi_nghiem.html">Dụng cụ thí nghiệm </a></li>
+                                            <li><a href="tin_cong_nghe_1.html">Tin tức khoa học</a></li>
+                                             <a href="thi_nghiem.html"> <img src="images/menu/cn.jpg" width="298" height="220"  alt="" class="pull-right"/></a>
+                                    	</ul>
+                            </li>
+                            <li>
+                            		<a href="maytinh.html">Máy tính<span class="glyphicon glyphicon-arrow-right"                              style="right:2px;top:12px;position:absolute;"></span></a>
+                            			<ul class="sach may_tinh">
+                                    		<li style="border:none;"><a href="maytinh.html">Laptop</a></li>
+                                            
+                                             <a href="maytinh.html"> <img src="images/menu/laptop.jpg" width="298" height="220"  alt="" class="pull-right"/></a>
+                                    	</ul>
+                            </li>
+                        </ul>
+                        <div class="slide pull-right col-md-9" style="height:300px;">
+                        		<div class="gallery js-flickity" data-flickity-options='{"autoPlay":1500}'>
+                                	<a href="thoitrangnam.html">  
+                                        <div class="gallery-cell">
+                                            
+                                                <img src="images/thoi_trang/tt_6.PNG" width="235" height="250"  alt=""/>
+                                            
+                                        </div>
+                                  </a>
+                                   <a href="thoitrangnam.html">  
+                                        <div class="gallery-cell">
+                                            
+                                                <img src="images/thoi_trang/tt_1.PNG" width="235" height="250"  alt=""/>
+                                            
+                                        </div>
+                                  </a>
+                                   <a href="thoitrangnam.html">  
+                                        <div class="gallery-cell">
+                                            
+                                                <img src="images/thoi_trang/tt_2.PNG" width="235" height="250"  alt=""/>
+                                            
+                                        </div>
+                                  </a>
+                                   <a href="thoitrangnam.html">  
+                                        <div class="gallery-cell">
+                                            
+                                                <img src="images/thoi_trang/tt_3.PNG" width="235" height="250"  alt=""/>
+                                            
+                                        </div>
+                                  </a>
+                                    <a href="thoitrangnam.html">  
+                                        <div class="gallery-cell">
+                                            
+                                                <img src="images/thoi_trang/tt_4.PNG" width="235" height="250"  alt=""/>
+                                            
+                                        </div>
+                                  </a>
+                                    <a href="thoitrangnam.html">  
+                                        <div class="gallery-cell">
+                                            
+                                                <img src="images/thoi_trang/tt_5.PNG" width="235" height="250"  alt=""/>
+                                            
+                                        </div>
+                                  </a>
+                                 <a href="thoitrangnam.html">  
+                                        <div class="gallery-cell">
+                                            
+                                                <img src="images/thoi_trang/tt_7.PNG" width="235" height="250"  alt=""/>
+                                            
+                                        </div>
+                                  </a>
+                                </div>
+                       	</div>
+
+                </div>
+                <div class="thoi_trang_home">
+                		<p style="color:#900;font-size:24px">Thời trang giảm giảm giá sốc</p>
+                        <div class="col-md-12 tt_home">
+                                <div class="col-md-3 ">
+                                  	 <a href="thoitrangnam.html">
+                                     	<img src="images/thoi_trang/tt_1.PNG" width="220" height="220"  alt="" class="img-responsive"/>
+                                     </a>
+                                      <p style="color:#009"><b><i>Stylish Men Slim Fit Sweater Cas...</i></b></p>
+                                      <p style="font-size:24px;"><b>605.203 VNĐ</b></p>
+                                </div>
+                                <div class=" col-md-3 ">
+                                       	<a href="thoitrangnam.html">
+                                            <img src="images/thoi_trang/tt_2.PNG"  width="220" height="220"  alt="" class="img-responsive"/>
+                                        </a>
+                                       <p style="color:#009"><b><i>NWT Polo Ralph Lauren Men's V...</i></b></p>
+                                       <p style="font-size:24px;"><b>643.458 VNĐ</b></p>
+                                </div>
+                                <div class="col-md-3 ">
+                                		<a href="thoitrangnam.html">
+                                			        <img src="images/thoi_trang/tt_3.PNG"  width="220" height="220"  alt="" class="img-responsive"/>
+                                          </a>
+                                         <p style="color:#009"><b><i>Luxury Men's Stylish Casual Dress...</i></b></p>
+                                         <p style="font-size:24px;"><b>545.853 VNĐ</b></p>
+                                </div>
+                                <div class="col-md-3">
+                                    	<a href="thoitrangnam.html">
+                                    		<img src="images/thoi_trang/tt_4.PNG"  width="220" height="220"  alt="" class="img-responsive"/> 
+                                        </a>
+                                      <p style="color:#009"><b><i>Fashion Mens Stylish Slim Fit Casual Dress...</i></b></p>
+                                       <p style="font-size:24px;"><b>710.458 VNĐ</b></p>
+                                </div>
+                        </div>
+                </div>
+                
+                <!--outlet-->
+                <div class="outlet_home">
+                		<div class="col-md-4">
+                     		<div class="gallery js-flickity" data-flickity-options='{"autoPlay":1500}'>
+                            	<a href="thoitrangnam.html">
+                                            <div class="gallery-cell">
+                                            
+                                                <img src="images/thoi_trang/tt_n.jpg" width="350" height="350"  alt=""/>
+                                            </div>
+                                </a>
+                                 <a href="thoitranghome.html">
+                                            <div class="gallery-cell">
+                                           
+                                                <img src="images/thoi_trang/tt_nam.jpg" width="454" height="350"  alt=""/>
+                                            </div>
+                                  </a>
+                                  <a href="thoitrangnam.html">
+                                            <div class="gallery-cell">
+                                                
+                                                    <img src="images/thoi_trang/tt_namd.jpg" width="454" height="350"  alt=""/>
+                                          </div>
+                                    </a>
+                                	
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                        	<div class="wow bounceIn" data-wow-duration="5s">
+                                <img src="images/outlet.gif" width="303" height="65"  alt=""/>
+                                <p style="color:#F00"><i><b>Outlet hàng hiệu</b></i></p>
+                                <div class="outlet_home_center">
+                                		<div class="col-md-6 ">
+                                        	<a href="#"><span>Calvin Klein</span></a><br/><br/>
+                                            <a href="#"><span>Aeropostale</span></a><br/><br/>
+                                            <a href="#"><span> Jockey</span></a><br/><br/>
+                                            <a href="#"><span>Bare Necessities</span></a><br/><br/>
+                                            <a href="#"><span>Dooney & Bourke</span></a><br/><br/>
+                                            <a href="#"><span>The Watchery</span></a><br/><br/>
+                                        </div>
+                                        <div class="col-md-6 ">
+                                       		 <a href="#"><span>Spanx</span></a><br/><br/>
+                                             <a href="#"><span>Crocs Outlet</span></a><br/><br/>
+                                             <a href="#"><span>Speedo</span></a><br/><br/>
+                                             <a href="#"><span>Tommy Hilfiger</span></a><br/><br/>
+                                             <a href="#"><span>Guess</span></a><br/><br/>
+                                             <a href="#"><span>Hanes</span></a><br/><br/>              
+                                        </div>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="col-md-4">
+                        			<div class="gallery js-flickity" data-flickity-options='{"autoPlay":1500}'>
+                            	<a href="donghonam.html">
+                                            <div class="gallery-cell">
+                                            	<img src="images/Dongho/sl1.jpg" width="350" height="350"  alt=""/>
+                                                
+                                            </div>
+                                </a>
+                                 <a href="donghonam.html">
+                                            <div class="gallery-cell">
+                                           
+                                                <img src="images/Dongho/sl2.jpg" width="350" height="350"  alt=""/>
+                                            </div>
+                                  </a>
+                                  <a href="donghonam.html">
+                                            <div class="gallery-cell">
+                                                
+                                                   <img src="images/Dongho/sl3.jpg" width="350" height="350"  alt=""/>
+                                          </div>
+                                    </a>
+                                	
+                            </div>
+                        </div>
+                </div>
+                <!------Sản phẩm ưa chuộng------------------->
+                <div class="clearfix"></div>
+                <div class="sp_uachuong">
+                	<p>Sản phẩm được ưa chuộng<span class="glyphicon glyphicon-apple pull-right"></span></p>
+                    <div class="gallery js-flickity" data-flickity-options='{"autoPlay":1800}'>
+                    	<div class="gallery-cell">
+                        	<img src="images/laptop/laptp (1).JPG" width="228" height="239"  alt=""/>
+							<a href="maytinh.html">Laptop Dell Inspiron 15 <br/>N3542 15.6inch (Đen)</a>
+                        </div>
+                        <div class="gallery-cell">
+                        	<img src="images/laptop/laptp (2).JPG" width="253" height="239"  alt=""/>
+                            <a href="maytinh.html">Laptop Asus GL552JX - <br/>XO093D 15.6inch (Đen)</a>
+                        </div>
+                         <div class="gallery-cell">
+                       		 <img src="images/laptop/laptp (5).JPG" width="241" height="239"  alt=""/>
+                             <a href="maytinh.html">Laptop Dell N3542-3267BK<br/> 15.6inch (Đen) - Hàng nhập khẩu (Đen)</a>
+                        </div>
+                         <div class="gallery-cell">
+                       		 <img src="images/laptop/laptp (7).JPG" width="241" height="239"  alt=""/>
+                             <a href="maytinh.html">Laptop Dell Inspiron 15 N3542<br/> 15.6inch (Đen)</a>
+                        </div>
+                         <div class="gallery-cell">
+                        	<img src="images/laptop/laptp (8).JPG" width="243" height="239"  alt=""/>
+                            <a href="maytinh.html">Laptop Lenovo Flex2-14 594<br/>35178 14inch (Đen)</a>
+                        </div>
+                        <div class="gallery-cell">
+                        	<img src="images/laptop/laptp (9).JPG" width="243" height="239"  alt=""/>
+                            <a href="maytinh.html">Laptop DELL XPS 13- 9343 <br/>i5 5200U 13.3inch (Bạc)</a>
+                        </div>
+                        <div class="gallery-cell">
+                        	<img src="images/laptop/laptp (10).JPG" width="243" height="239"  alt=""/>
+                            <a href="maytinh.html">Laptop DELL XPS 13- 9343 <br/>i5 5200U 13.3inch (Bạc)</a>
+                        </div>
+                    </div>
+                            
+                </div>
+                
+                <!------Tin công nghệ------->
+                <div class="clearfix"></div>
+                <div class="news">
+                	<p><b><i>TIN CÔNG NGHỆ</i></b></p>
+                    <div class="col-md-7">
+                    	<a href="http://quantrimang.com/ban-muon-doi-ip-sang-dia-chi-ip-nuoc-nga-day-la-phuong-phap-danh-cho-ban-118736"><p style="font-size:25px;color:#009"><b>Bạn muốn đổi IP sang địa chỉ IP nước Nga. Đây là phương pháp dành cho bạn!</b></p>
+                        </a>
+                        <img src="images/Tin cong nghe/tin_cn_1.jpg" width="596" height="325"  alt="" class="img-responsive"/>
+                        <p class="text-justify"><i>Thông tin Kaspersky phát hành phiên bản miễn phí quả thực là rất đáng mừng cho cộng đồng người sử dụng, nhưng tin không mừng là nó lại chỉ được áp dụng cho những địa chỉ IP ở Nga và Ukraina. Nhưng không sao, bài viết dưới đây của Quản Trị Mạng sẽ giúp các bạn khắc phục điều này 1 cách nhanh chóng.</i></p>
+                    </div>
+                    
+                    <div class="col-md-4 col-md-push-1">
+                            <div class="media">
+                            	<a href="http://quantrimang.com/5-cach-download-video-tren-youtube-nhanh-nhat-71858" class="pull-right"><img src="images/Tin cong nghe/tin_cn_2.jpg" width="89" height="89"  alt="" class="img-responsive media-object"/></a>
+                                <div class="media-body">
+                                	 <a href="http://quantrimang.com/5-cach-download-video-tren-youtube-nhanh-nhat-71858">
+                                     		<p class="text-left" style="margin-top:13px; font-size:14px;color:#006"><b>7 cách download video trên Youtube nhanh chóng, đơn giản</b></p>
+                                     </a>
+                                </div>
+                            </div>
+                           
+                         
+                            <div class="media">
+                            	<a href="http://quantrimang.com/7-doc-chieu-bao-mat-cho-iphone-110573" class="pull-right"><img src="images/Tin cong nghe/tin_cn_3.PNG" width="93" height="94"  alt="" class="img-responsive"/></a>
+                                <div class="media-body">
+                                	<a href="http://quantrimang.com/7-doc-chieu-bao-mat-cho-iphone-110573">	
+                                        <p class="text-left" style="margin-top:13px; font-size:14px;color:#006"><b>7 độc chiêu bảo mật cho iPhone</b></p>
+                                     </a>
+                                </div>
+                            </div>
+                       
+                         
+                            <div class="media">
+                            		<a href="http://quantrimang.com/khoa-iphone-tu-xa-khi-bi-mat-may-117248" class="pull-right"><img src="images/Tin cong nghe/tin_cn_4.jpg" width="85" height="94"  alt="" class="img-responsive media-object"/></a>
+                                	<div class="media-body">
+                                    	<a href="http://quantrimang.com/khoa-iphone-tu-xa-khi-bi-mat-may-117248">
+                                            <p class="text-left" style="margin-top:13px; font-size:14px;color:#006"><b>Khóa iPhone từ xa khi bị mất máy</b></p>
+                                        </a>
+                                    </div>
+                            </div>
+                          
+                         
+                            <div class="media">
+                            	<a href="http://quantrimang.com/huo%CC%81ng-da%CC%83n-su%CC%89-du%CC%A3ng-iphone-6-iphone-6-plus-co-ba%CC%89n-112482" class="pull-right"><img src="images/Tin cong nghe/tin_cn_5.jpg" width="92" height="92"  alt="" class="img-responsive media-object"/></a>
+                                <div class="media-body">
+                                	<a href="http://quantrimang.com/huo%CC%81ng-da%CC%83n-su%CC%89-du%CC%A3ng-iphone-6-iphone-6-plus-co-ba%CC%89n-112482">
+                                        <p class="text-left" style="margin-top:13px; font-size:14px;color:#006"><b>Hướng dẫn sử dụng iPhone 6, iPhone 6 Plus cơ bản</b></p>
+                                    </a>
+                                </div>
+                            </div>
+                   
+                          
+                            <div class="media">
+                            	<a href="http://quantrimang.com/cach-lam-windows-10-khoi-dong-nhanh-hon-116940" class="pull-right"><img src="images/Tin cong nghe/tin_cn_6.jpg" width="92" height="95"  alt="" class="img-responsive media-object"/></a>
+                                <div class="media-body">
+                                		<a href="http://quantrimang.com/cach-lam-windows-10-khoi-dong-nhanh-hon-116940">
+                                            <p class="text-left" style="margin-top:13px; font-size:14px;color:#006"><b>4 cách làm trong bài sẽ giúp Windows 10 của bạn "nhanh như gió"</b></p>
+                                         </a>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="media">
+                            	<a href="http://quantrimang.com/cach-su-dung-tinh-nang-reset-tren-windows-10-117095" class="pull-right"><img src="images/Tin cong nghe/tin_cn_7.jpg" width="83" height="86"  alt="" class="img-responsive media-object"/></a>
+                                <div class="media-body">
+                                		<a href="http://quantrimang.com/cach-su-dung-tinh-nang-reset-tren-windows-10-117095">
+                                            <p class="text-left" style="margin-top:13px; font-size:14px;color:#006"><b>Cách sử dụng tính năng Reset trên Windows 10</b></p>
+                                         </a>
+                                </div>
+                            </div>
+                         </a>
+                    </div>
+                </div>
+                <!-----------------huong dan ---------------------->
+                <div class="huong_dan col-md-12" style="margin-top:50px;">
+                		<div class="col-md-3">
+                                    <div class="wow bounceInLeft" data-wow-duration="3s"><img src="images/huong dan van chuyen/hd_1.jpg" width="75" height="74"  alt="" class="img-responsive media-object pull-left" /></div>
+                                    <div class="wow bounceIn" data-wow-duration="5s">
+                                        <p style="margin-top:7px; font-size:15px;"><b><i>Bước 1:</i></b></p>
+                                        <p ><i>Người mua tạo đơn hàng</i></p>
+                                    </div>
+                        </div>
+                        
+                        <div class="col-md-3">
+                        			<div class="wow bounceInLeft" data-wow-duration="3s"><img src="images/huong dan van chuyen/hd_2.jpg" width="75" height="74"  alt="" class="img-responsive media-object pull-left" /></div>
+                                      <div class="wow bounceIn" data-wow-duration="5s">
+                                            <p style="margin-top:7px; font-size:15px;"><b><i>Bước 2:</i></b></p>
+                                            <p ><i>Người mua thanh toán tiền hàng</i></p>
+                                      </div>
+                        </div>
+                        
+                        <div class="col-md-3">
+                        			<div class="wow bounceInLeft" data-wow-duration="3s"><img src="images/huong dan van chuyen/hd_3.jpg" width="75" height="74"  alt="" class="img-responsive media-object pull-left" /></div>
+                                    <div class="wow bounceIn" data-wow-duration="5s">
+                                            <p style="margin-top:7px; font-size:15px;"><b><i>Bước 3:</i></b></p>
+                                            <p ><i><span style="color:#00F;font-size:13px;font-weight:bold;">ONLINE 24H</span> vận chuyển quốc tế và khai báo hải quan</i></p>
+                                     </div>
+                        </div>
+                        
+                        <div class="col-md-3">
+                        			<div class="wow bounceInLeft" data-wow-duration="3s"><img src="images/huong dan van chuyen/hd_4.jpg" width="75" height="74"  alt="" class="img-responsive media-object pull-left" /></div>
+                                     <div class="wow bounceIn" data-wow-duration="5s">
+                                            <p style="margin-top:7px; font-size:15px;"><b><i>Bước 4:</i></b></p>
+                                            <p ><i>ONLINE 24H giao hàng tận nhà</i></p>
+                                      </div>
+                        </div>
+                </div>
+        </div>
+        <!--footer------------------------------->
+        <div class="col-md-12 footer">
+        	<div class="wow bounceIn" data-wow-duration="5s">
+                <div class="col-md-4 footer-1">
+                		<p><b>Với rất nhiều sản phẩm đa dạng phong phú, ONLINE 24H sẽ cam kết đáp ứng mọi nhu cầu sản phẩm của khách hàng  </b></p>
+                        <p><b>Miễn phí giao hàng toàn quốc</b></p>
+                        <p><b>Nhận hàng tận tay sau 2-3 tuần</b></p>
+                        <p><b><i>Hỗ trợ nhiệt tình các ngày trong tuần</i></b></p>
+                </div>
+                
+                <div class="col-md-4  footer-2">
+                		<a href="gioithieu.html"><p><b>Giới thiệu về chúng tôi</b></p></a>
+                        <a href="huong_dan.html"><p><b>Hướng dẫn mua hàng trên ONLINE 24H</b></p></a>
+                        <a href="lien_he.html"><p><b>Liên hệ với 24H ONLINE</b></p></a>
+                        <a href="faqs.html"><p><b><i>FAQs</i></b></p></a>
+                </div>
+            </div>
+                  
+                <div class="col-md-4 footer-3">
+                		<div class="wow shake"><p style="font-size:18px; color:#003;">	<b><i>CHẤP NHẬN THANH TOÁN</i></b></p></div>
+                        <div class="media">
+                        		<div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_1.gif" width="86" height="41"  alt="" class="media-object pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_2.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_3.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_4.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_5.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_6.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_7.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_8.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                 <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_9.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                        </div>
+                </div>
+                
+                
+        </div>
+    </div>
+</div>
+</body>
+</html>

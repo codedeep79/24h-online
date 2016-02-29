@@ -1,0 +1,780 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sach</title>
+<link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap-3.3.6-dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/thi_nghiem.css">
+<link rel="stylesheet" type="text/css" href="css/style_bootstrap.css">
+<link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+<script src="Bootstrap/bootstrap-3.3.6-dist/js/jquery.min.js"></script>
+<script src="Bootstrap/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="wow/animate.css">
+<script src="wow/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+</head>
+
+<body  style="background:url(images/bg/quadrillebeige01.jpg)">
+<div class="container" style="background:#FFF">
+	<div class="col-sm-12 col-md-12">
+    	<!--head----------------------------------->
+        <div class="head">
+                <nav class="navbar navbar-default">
+                		<div class="navbar-header">
+                        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu_1">
+                            		<span class=" icon-bar"></span>
+                                    <span class=" icon-bar"></span>
+                                    <span class=" icon-bar"></span>
+                                    <span class=" icon-bar"></span>
+                                    <span class=" icon-bar"></span>
+                            </button>
+                        </div>
+                     <div class="wrap-head-1">
+                        <div class="collapse navbar-collapse" id="menu_1">
+                        		<ul class="nav navbar-nav">
+                                	<li><a href="#" data-toggle="modal" data-target=".kiem_tra">Kiểm tra đơn hàng</a>
+                                    		<div class="modal fade kiem_tra" role="dialog">
+                                            	<div class=" modal-dialog">
+                                                	<div class="modal-content">
+                                                    		<div class="modal-header">
+                                                            	<button class="btn btn-info close" data-dismiss="modal">
+                                                                	&times;
+                                                                </button> 
+                                                                <b>Kiểm tra đơn hàng</b>
+                                                					
+                                                            </div>
+                                                            
+                                                            <div class="modal-body">
+                                                            	<form class="form-horizontal">
+                                                                	<div class="form-group">
+                                                                    	<label>Email:</label>
+                                                                        <input type="text" class="form-control" placeholder="Email..">
+                                                                    </div>
+                                                                    
+                                                                    <div class="form-group">
+                                                                    	<label>Mã đơn hàng:</label>
+                                                                        <input type="text" class="form-control" placeholder="Nhập vào mã đơn hàng..">
+                                                                    </div>
+                                                                    <button type="button" class="btn btn-success">Kiểm tra</button>
+                                                                </form>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </li>
+                                    <li><a href="#" data-toggle="modal" data-target=".ma_hang">Tạo khiếu nại</a>
+                                    		<div class="modal ma_hang fade" role="dialog">
+                                            		<div class="modal-dialog">
+                                                    	<div class="modal-content">
+                                                        		<div class="modal-header">
+                                                                 <button class="btn btn-default close" data-dismiss="modal" style="margin-top:2px">&times;</button>
+                                                                	<p><b>Tạo khiếu nại</b></p>
+                                                                   
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                		<form class=" form-horizontal" role="form">
+                                                                        	<div class="form-group">
+                                                                                <label><b><i>Họ và tên</i></b></label>
+                                                                                <input class="form-control" type="text" placeholder="Nhập vào họ và tên....">
+                                                                             </div>
+                                                                             
+                                                                             <div class="form-group">
+                                                                                <label><b><i>Số điện thoại</i></b></label>
+                                                                                <input class="form-control" type="text" placeholder="Nhập vào số điện thoại...">
+                                                                             </div>
+                                                                             
+                                                                             <div class="form-group">
+                                                                                <label><b><i>Số CMND:</i></b></label>
+                                                                                <input class="form-control" type="text" placeholder="Nhập vào số chứng minh nhân dân..">
+                                                                             </div>
+                                                                             	<div class="form-group">
+                                                                                	<label >Mã đơn hàng:</label>
+                                                                                    <input type="text " placeholder="Mã đơn hàng.." class="form-control">
+                                                                                </div>
+                                                                                
+                                                                                <div class="form-group">
+                                                                                	<label> Mã sản phẩm: </label>
+                                                                                    <input type="text " class="form-control" placeholder="Mã sản phẩm">
+                                                                                </div>
+                                                                                <div class="checkbox">
+                                                                                	<b>Vấn đề sản phẩm</b><br/>
+                                                                                    <label><input type="checkbox">Sản phẩm</label><br/>
+                                                                                    <label><input type="checkbox">Chính sách giá</label><br/>
+                                                                                    <label><input type="checkbox">Dịch vụ</label>
+                                                                                </div> 
+                                                                                <b>Nội dung</b><br/> 
+                                                                                <textarea style="width:500px; height:191px"></textarea>
+                                                                                <button type="button" class="btn btn-info">Gửi <span class="glyphicon glyphicon-arrow-right"</button>
+                                                                        </form>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                    </li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-phone"></span><b>Hotline: <span style="color:#00F;">1900-123-123</span></b></a></li>
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                	<li >
+                                    		<a data-toggle="modal" data-target=".dat_hang" style="color:#30F;font-weight:bold; font-style:italic;">Đăng nhập</a>
+                                    		<div class="dat_hang modal fade" role="dialog">
+                                            	<div class="modal-dialog">
+                                                	<div class="modal-content">
+                                                    	<div class="modal-header">
+                                                        	<button type="button" data-dismiss="modal" class="close">&times;</button>
+                                                            <button class="btn btn-success" style="color: #060; font:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif">Login</button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                        		<div class="input-group">
+                                                                	<label>Email (*) <input type="text" class="form-control"> </label>
+                                                                    <label>Password (*) <input type="text" class="form-control"> </label>
+                                                                    <p style="color:#00C; font:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif">Quên mật khẩu</p>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </li>
+                                    <li>
+                                    		<a href="#" data-toggle="modal" data-target=".dang_ky" style="color:#03F;font-weight:bold; font-style:italic;">Đăng ký</a>
+                                    		<div class="modal fade dang_ky">
+                                            	<div class="modal-dialog">
+                                                	<div class="modal-content">
+                                                    	<div class="modal-header">
+                                                        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <button type="button" class="btn btn-info">Registry</button>
+                                                        </div>
+                                                        		
+                                                        <div class="modal-body">
+                                                        		<div class="input-group">
+                                                                	<label>Họ và tên (*) 
+                                                                    	<input type="text" class="form-control">
+                                                                    </label>
+                                                                    <label>Email (*) 
+                                                                    	<input type="text" class="form-control">
+                                                                    </label>
+                                                                    <label>Mật khẩu (*) 
+                                                                    	<input type="password" class="form-control">
+                                                                        <p style="font-size:9px;color:#999">Ít nhất 8 kí tự</p>
+                                                                    </label>
+                                                                     <div class="form-group">
+                                                                         <label >Giới tính (*) 
+                                                                            <select >
+                                                                                <option>Nam</option>
+                                                                                <option>Nữ</option>
+                                                                            </select>
+                                                                        </label>
+                                                                     </div>
+                                                                    <label class="col-md-offset-2">Tôi đã đọc và đồng ý với <a href="#">đều khoản sử dụng</a> của <b>24H ONLINE</b></label>
+                                                                    <button type="button" class="btn btn-danger"><b><i>Đăng ký</i></b></button>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </li>
+                                     <li><a href="#"><span class="glyphicon glyphicon-bell"></span><p class="badge">0</p></a></li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+                                   
+                                </ul>
+                        </div>
+                     </div>
+                </nav> 
+                <div class="logo">
+                	<div class="wow bounceIn" data-wow-duration="2s" ><img src="images/logo.gif" width="200" height="200"  alt="logo" class="img-responsive img-rounded" /></div>
+                    <div class="search">
+                    	<input type="search" class="form-control " placeholder="Search ... " >
+                        <span class="tim_kiem btn btn-danger">Tìm kiếm</span>
+                    </div>
+                </div>
+        </div>
+        <!--content------------------------------->
+        <div class="content">
+        		<nav class="navbar navbar-default" style="width:125%;margin-left:-150px;  border:1px solid #CCC;">
+                	<div class="navbar-header" style="margin-left:10%;">
+                    		<a  href="Index.html" class="navbar-brand">Danh mục sản phẩm</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                    		<li><a href="#"><b>Hàng mới</b></a></li>
+                            <li><a href="#"><b>Daily deal</b></a></li>
+                            <li><a href="#"><b>Hàng outlet</b></a></li>
+                            <li><a href="#"><b>Tin tức</b></a></li>
+                    </ul>
+                </nav>
+                <div class="menu_left">
+                		<ul class="nav nav-pills nav-stacked" role="tablist">
+                        	<li class="active"><a href="#" >Danh mục >> Sách</a></li>
+                            <li style="background: #9CF">
+                            		<a href="tieu_thuyet.html"><b>Tiểu thuyết</b><span class="glyphicon glyphicon-arrow-right" style="right:2px;top:12px;position:absolute;"></span></a>
+                            		
+                                    
+                          </li>
+                            <li >
+                            		<a href="sach_chuyen_nghanh_1.html" ><b>Sách chuyên nghành</b><span class="glyphicon glyphicon-arrow-right" 			             				style="right:2px;top:12px;position:absolute;"></span></a>
+                            		
+                                   
+                          </li>
+                          
+                           <li>
+                            		<a href="sach_khao_cuu.html"><b>Sách khảo cứu</b><span class="glyphicon glyphicon-arrow-right" 			             				style="right:2px;top:12px;position:absolute;"></span></a>
+                            		
+                                   
+                          </li>
+                          
+                          
+                           
+                  </ul>
+                </div>
+                <div class="btn btn-danger" style="margin-bottom:10px">Sách mới</div>
+                <div class="col-md-12 sach">
+                		<div class="col-md-3" >
+                        	<div class="media">
+                        		<img src="images/sach/sach_cn_17.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p>NHỮNG MỤC TIÊU CỦA<br/> GIÁO DỤC VÀ CÁC<br/> TIỂU LUẬN KHÁC
+</p>
+                                    </div>
+                                </div>
+                            </div>
+   
+                                    <span >88 000 VNĐ</span><br/>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                   
+                                    <div class=" btn btn-danger"  data-toggle="modal" data-target=".project">
+                                            Xem chi tiết
+                                   </div>
+                  
+                        </div>	
+                  		    
+                        	     <div class="modal fade project">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                         <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>﻿Mục lục:<br/>
+
+1. Những mục tiêu của giáo dục.<br/>
+2. Nhịp điệu của giáo dục.<br/>
+3. Những yêu sách theo nhịp tự do và kỷ luật<br/>
+4. Giáo dục kỹ thuật và quan hệ của nó với khoa học và văn chương<br/>
+5. Các trường đại học và chức năng của chúng<br/>
+
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>			
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_cn_18.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p>BỘ SÁCH KỶ NIỆM<br/> 120 NĂM NGÀY SINH<br/>  CHỦ TỊCH HỒ CHÍ MINH<br/>  - 120 SẮC LỆNH QUAN <br/> TRỌNG CỦA CHỦ TỊCH<br/>  HỒ CHÍ MINH
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            	<span >31.200 VNĐ</span><br/>
+                                 <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            
+                            	<div class=" btn btn-danger" data-toggle="modal" data-target=".meo_vat">
+                           			Xem chi tiết
+                           		</div>
+                                
+                           
+                        </div>	
+                        
+                        	<div class="modal fade meo_vat">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div> 
+                                                        <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>Lời giới thiệu:<br/>
+
+1. Sắc lệnh cử ông Hoàng Minh Giám sung chức Tổng lý Văn Phòng Bộ Nội vụ<br/>
+
+2. Sắc lệnh cử ông Vĩnh Thụy làm Cố vấn Chính Phủ Lâm Thời Dân Chủ Cộng Hòa<br/>
+
+3. Sắc lệnh trả lại ngạch quan lại cho Lê Đình Trâm, Hoàng Gia Đức và Đặng Trinh Kỳ<br/>
+
+4. Sắc lệnh về việc buộc phải khai trình các cuộc biểu tình trước 24 giờ với các NBND sở tại<br/>
+
+5. Sắc lệnh về việc cho phép Ty Liêm Phóng bắt những người nguy hiểm cho nền Dân Chủ Cộng Hòa Việt Nam để đưa đi an trí<br/>
+
+6. Sắc lệnh về việc định thể lệ cho Ty Liêm Phóng và Sở Cảnh Ssát tuân theo mỗi khi bắt người<br/>
+
+7. Sắc lệnh về việc thiết lập các Tòa án Quân sự<br/>
+
+8. Sắc lệnh về việc định thể lệ phóng thích các tội nhân bị kết án<br/>
+
+9. Sắc lệnh về việc lập một Ủy ban dự thảo và đệ trình Quốc hội một bản Hiến pháp cho Việt Nam Dân Chủ Cộng Hòa<br/>
+
+10. Sắc lệnh về việc bãi bỏ các nghiệp đoàn trong Tòa án Quân sự<br/>
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_cn_19.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:lowercase">BỘ SÁCH KỶ NIỆM<br/> 120 NĂM NGÀY SINH<br/>  CHỦ TỊCH HỒ CHÍ MINH<br/>  - TƯ TƯỞNG HỒ CHÍ<br/>  MINH VỚI SỰ NGHIỆP<br/>  XÂY DỰNG CON NGƯỜI <br/> VIỆT NAM PHÁT TRIỂN<br/>  TOÀN DIỆN
+
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >20 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger " data-toggle="modal" data-target=".frontpage">
+                           			Xem chi tiết
+                           	</div>
+                            
+                            
+                        </div>	
+                        
+                        
+                        		<div class="modal fade frontpage">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                         <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>﻿﻿Tư tưởng Hồ Chí Minh về con người được biểu hiện thật đa dạng và vô cùng phong phú. Nó thắm đượm trong toàn bộ cuộc đời và sự nghiệp của Người, được tỏa sáng trong từng việc làm, từng cử chỉ, từng mối quan tâm ân cần đến mỗi con người: Tất cả đều toát lên tình thương yêu vô hạn, sự tôn trọng, thái độ bao dung và niềm tin tuyệt đối vào con người. Trước khi từ giã cõi đời, trong bản Di chúc để lại cho đời sau, Người không quên căn dặn Đảng ta: Ngay sau khi cuộc kháng chiến chống Mỹ, cứu nước thắng lợi thì "Đầu tiên là công việc đối với con người" tức là phải có chính sách xã hội đối với con người. Người căn dặn "phải có kế hoạch thật tốt để phát triển kinh tế và văn hóa, nhằm không ngừng nâng cao đời sống của nhân dân". Đó là những việc Đảng và Nhà nước ta đã và đang ra sức thực hiện trong sự nghiệp đổi mới hiện nay.
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_cn20.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:lowercase">THỰC HÀNH TÍNH TOÁN<br/> KẾT CẤU VỚI SAP 15
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                             <span >29 600 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".outlook">
+                           			Xem chi tiết
+                           	</div>
+              
+                        </div>	
+              			          
+                        	   <div class="modal fade outlook">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                         <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>﻿Xin trân trọng giới thiệu
+
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                </div>  
+                
+                <div class="col-md-12 sach">
+                		<div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_cn21.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:lowercase">GIÁO TRÌNH THỰC <br/>HÀNH PHOTOSHOP CC
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >109 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".quyenluckhatvong">
+                           			Xem chi tiết
+                           	</div>
+              
+                        </div>
+                        
+                        
+                         <div class="modal fade quyenluckhatvong">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div> 
+                                                        <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>Sách gồm 20 bài tập thực hành được biên soạn kiểu “cầm tay chỉ việc” giúp người học dễ theo dõi và thực hành khai thác các công cụ tạo vùng chọn trong Photoshop CC để ghép và chỉnh sửa ảnh. Bạn đọc sẽ tiết kiệm thời gian, đạt năng suất hơn khi làm việc với Photoshop CC cũng như với các phiên bản cũ hơn như Photoshop CS4, CS5, CS6. Tài liệu không thể thiếu của học sinh, sinh viên, các nhiếp ảnh gia, các nhà thiết kế đồ họa, thiết kế Web và biên tập video...
+
+
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                             </div>	
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_cn22.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:lowercase">JOOMLA DÀNH CHO<br/> NGƯỜI TỰ HỌC
+
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >34 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".thuattrinuoc">
+                           			Xem chi tiết
+                           	</div>
+            
+                        </div>	
+                        
+                        
+                             <div class="modal fade thuattrinuoc">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                         <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>Sách hướng dẫn sử dụng Joomla-hệ quản trị mã nguồn mở được viết bằng ngôn ngữ PHP cho phép kết nối tới cơ sở dữ liệu MySQL, người sử dụng có thể dễ dàng xuất các nội dung thiết kế lên Internet. Do có kết nối đến cơ sở dữ liệu MySQL cho nên việc quản trị một website với Joomla trở nên dễ dàng. Sách trình bày hướng dẫn từng bước được minh họa bằng những hình ảnh trực quan cho dù bạn là một người lập trình web chuyên nghiệp, một người quản trị website hay đơn giản chỉ là một người mới làm quen với thiết kế web cũng có thể sử dụng Joomla để tạo một website cho mình.
+<br/>
+ 
+
+Sách gồm 4 chương:<br/>
+
+ 
+
+CHƯƠNG 1: HƯỚNG DẪN CÀI ĐẶT<br/>
+
+Cũng như các tài liệu hướng dẫn sử dụng phần mềm khác, trước khi thực hành với Joomla chúng ta cần tiến hành cài đặt chương trình vào máy.<br/>
+
+ 
+
+CHƯƠNG 2: TỔNG QUAN VỀ ADMINISTRATOR<br/>
+
+Phần quản trị là trung tâm điều khiển của website Joomla. Các bạn biết cách sử dụng giao diện đơn giản, thân thiện của AdminSection để xây dựng cấu trúc và biên tập, xuất nội dung.<br/>
+
+ 
+
+CHƯƠNG 3: TÌM HIỂU CƠ BẢN JOOMLA<br/>
+
+Giới thiệu tổng quan Joomla một hệ thống quản trị nội dung [Content Management System (CMS)] giúp bạn xây dựng một website hoặc các ứng dụng online. Joomla là chương trình có mã nguồn mở, do đó việc sử dụng Joomla là hoàn toàn miễn phí cho tất cả mọi người.<br/>
+
+ 
+
+CHƯƠNG 4: BÀI TẬP THỰC HÀNH<br/>
+
+Đây là phần trọng tâm của sách, bao gồm 24 bài tập với các hướng dẫn từng bước giúp bạn làm quen với Joomla.
+
+
+
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_cn23.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:lowercase">HƯỚNG DẪN TỰ HỌC<br/> MICROSOFT WINDOWS <br/>SERVER 2012 - TỔ <br/>CHỨC VÀ QUẢN<br/> TRỊ MÁY CHỦ
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >134 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".honsuviet ">
+                           			Xem chi tiết
+                           	</div>
+                            
+                        </div>	
+ 
+                                  <div class="modal fade honsuviet">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                        <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>Hệ điều hành Windows Server 2012 có lẽ là phiên bản phát hành quan trọng nhất của nền tảng Microsoft Windows Server hơn bao giờ hết. Với một sáng tạo giao diện người dùng mới, công cụ quản lý mạnh mẽ hơn so với các phiên bản trước, tăng cường hỗ trợ Windows PowerShell, và hàng trăm tính năng mới trong các lĩnh vực mạng, lưu trữ, ảo hóa và giúp CNTT giảm các phí tổn.<br/>
+
+ 
+
+Với phiên bản Windows Server 2012, đã được thiết kế và cung cấp một nền tảng xây dựng giải pháp cộng đồng điện toán đám mây cho phép các doanh nghiệp tận dụng các lợi thế và nhiều tiện ích.<br/>
+
+ 
+
+Cuốn sách Hướng Dẫn Tự Học Microsoft Windows Server 2012 - Tổ Chức Và Quản Trị Máy Chủ sẽ giúp các chuyên gia IT làm quen với những khả năng của nền tảng mới và triển khai Windows Server 2012 trong môi trường riêng như:<br/>
+
+ 
+
+
+Nhu cầu nghiệp vụ đối với Windows Sewer 2012<br/>
+ 
+
+Nền tảng để xây dựng Private Cloud<br/>
+ 
+
+Quản lý nhiều nền tảng máy chủ<br/>
+ 
+
+Triển khai các ứng dụng web cơ sở và Cloud<br/>
+ 
+
+Kích hoạt Workstyle<br/>
+ 
+
+Quyển sách này sẽ là một nguồn tài liệu hữu ích đáp ứng cho bạn trong việc tự học hệ điều hành Microsoft Windows Server 2012 và phát huy tính sáng tạo vào công việc của mình một cách hiệu quả nhất.<br/>
+
+
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_cn24.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:lowercase">VISUAL BASIC 2005 -<br/> LẬP TRÌNH GIAO DIỆN <br/>WINDOWS FORMS - ỨNG <br/>DỤNG QUẢN LÝ<br/> HỆ THỐNG (TẬP 2)
+
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >84 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".sotaytinhoc ">
+                           			Xem chi tiết
+                           	</div>
+             
+                        </div>	
+                        
+                        
+                               <div class="modal fade sotaytinhoc">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                         <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>Giá trị của quyển sách:<br/>
+﻿
+Visual Basic 2005 mở rộng về ngôn ngữ<br/>
+Xử lý File và thư mục<br/>
+Quán lý tiến trình, Thread và Process<br/>
+Tìm hiểu hơn 80 thành phần giao diện mới của NET.2.0<br/>
+Clipboard, Windows Services, đồ họa và Font chữ<br/>
+Xây dựng ứng dụng thực tiễn WinCommander. NET.<br/>
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                       
+                </div>       
+                       <div class="col-md-12 sach">
+                		<div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_cn25.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:lowercase">TỰ HỌC THIẾT KẾ WEB (TẬP 2)
+
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >54 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".nuaduongxuatgia ">
+                           			Xem chi tiết
+                           	</div>
+                            
+                                
+                        </div>
+                        
+                        
+                        
+                              <div class="modal fade nuaduongxuatgia">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div> 
+                                                        <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>Cuốn sách được bắt đầu từ những định nghĩa về Internet, Web, trình duyệt, URL... nên không bắt buộc bạn phải hiểu nhiều về Web. Sau khi đọc xong cuốn sách này, chúng ta sẽ nắm bắt được những kiến thức nền tảng về HTML, đồ họa, bảng biểu, các chuẩn và nguyên lý có thể áp dụng để tạo trang Web. Thông qua các bài thực hành và bài kiểm tra cuối chương, bạn sẽ có cơ hội thực hành, áp dụng kỹ thuật khác nhau và nắm vững khái niệm chính.<br/>
+
+Khác với các cuốn sách khác, cuốn sách này cung cấp cho ta mọi thứ cần thiết để tạo ra web site cơ bản và giúp ta chuẩn bị những công việc cao cấp hơn liên quan đến Web.
+
+Cuốn sách gồm 2 tập.
+
+
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>	
+                        
+                       
+                                  <!--pagination----------------------->
+                <ul class="pagination" style="top:287px;right:500px;position:absolute;">
+                	<li><a href="sach_chuyen_nghanh_1.html">1</a></li>
+                    <li><a href="sach_chuyen_nghanh_2.html">2</a></li>
+                </ul>
+                          
+                   </div>
+                
+               
+               
+                <!-----------------huong dan ---------------------->
+                <div class="huong_dan col-md-12" style="margin-top:50px;">
+                		<div class="col-md-3">
+                                    <div class="wow bounceInLeft" data-wow-duration="3s"><img src="images/huong dan van chuyen/hd_1.jpg" width="75" height="74"  alt="" class="img-responsive media-object pull-left" /></div>
+                                    <div class="wow bounceIn" data-wow-duration="5s">
+                                        <p style="margin-top:7px; font-size:15px;"><b><i>Bước 1:</i></b></p>
+                                        <p ><i>Người mua tạo đơn hàng</i></p>
+                                    </div>
+                        </div>
+                        
+                        <div class="col-md-3">
+                        			<div class="wow bounceInLeft" data-wow-duration="3s"><img src="images/huong dan van chuyen/hd_2.jpg" width="75" height="74"  alt="" class="img-responsive media-object pull-left" /></div>
+                                      <div class="wow bounceIn" data-wow-duration="5s">
+                                            <p style="margin-top:7px; font-size:15px;"><b><i>Bước 2:</i></b></p>
+                                            <p ><i>Người mua thanh toán tiền hàng</i></p>
+                                      </div>
+                        </div>
+                        
+                        <div class="col-md-3">
+                        			<div class="wow bounceInLeft" data-wow-duration="3s"><img src="images/huong dan van chuyen/hd_3.jpg" width="75" height="74"  alt="" class="img-responsive media-object pull-left" /></div>
+                                    <div class="wow bounceIn" data-wow-duration="5s">
+                                            <p style="margin-top:7px; font-size:15px;"><b><i>Bước 3:</i></b></p>
+                                            <p ><i><span style="color:#00F;font-size:13px;font-weight:bold;">ONLINE 24H</span> vận chuyển quốc tế và khai báo hải quan</i></p>
+                                     </div>
+                        </div>
+                        
+                        <div class="col-md-3">
+                        			<div class="wow bounceInLeft" data-wow-duration="3s"><img src="images/huong dan van chuyen/hd_4.jpg" width="75" height="74"  alt="" class="img-responsive media-object pull-left" /></div>
+                                     <div class="wow bounceIn" data-wow-duration="5s">
+                                            <p style="margin-top:7px; font-size:15px;"><b><i>Bước 4:</i></b></p>
+                                            <p ><i>ONLINE 24H giao hàng tận nhà</i></p>
+                                      </div>
+                        </div>
+                </div>
+        </div>
+        		
+        <!--footer------------------------------->
+        <div class="col-md-12 footer">
+        	<div class="wow bounceIn" data-wow-duration="5s">
+                <div class="col-md-4 footer-1">
+                		<p><b>Với rất nhiều sản phẩm đa dạng phong phú, ONLINE 24H sẽ cam kết đáp ứng mọi nhu cầu sản phẩm của khách hàng  </b></p>
+                        <p><b>Miễn phí giao hàng toàn quốc</b></p>
+                        <p><b>Nhận hàng tận tay sau 2-3 tuần</b></p>
+                        <p><b><i>Hỗ trợ nhiệt tình các ngày trong tuần</i></b></p>
+                </div>
+                
+                <div class="col-md-4  footer-2">
+                		<a href="gioithieu.html"><p><b>Giới thiệu về chúng tôi</b></p></a>
+                        <a href="huong_dan.html"><p><b>Hướng dẫn mua hàng trên ONLINE 24H</b></p></a>
+                        <a href="lien_he.html"><p><b>Liên hệ với 24H ONLINE</b></p></a>
+                        <a href="faqs.html"><p><b><i>FAQs</i></b></p></a>
+                </div>
+            </div>
+                  
+                <div class="col-md-4 footer-3">
+                		<div class="wow shake"><p style="font-size:18px; color:#003;">	<b><i>CHẤP NHẬN THANH TOÁN</i></b></p></div>
+                        <div class="media">
+                        		<div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_1.gif" width="86" height="41"  alt="" class="media-object pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_2.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_3.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_4.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_5.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_6.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_7.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_8.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                 <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_9.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                        </div>
+                </div>
+                
+                
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,333 @@
+.head{
+	
+	}
+.wrap-head-1{
+	
+	}
+.head .collapse ul li{
+	border-right:2px dashed #CCCCCC;
+	}
+.head .collapse ul li a:hover{
+	border-top:4px solid #333;
+	background:#FFF;
+	color:#66C;
+	font-weight:bold;
+	}
+.form-horizontal{
+	margin-left:15px;
+	padding:20px;
+	}
+/*image--------------------------------logo*/
+.logo{
+	position:relative;
+	background:url(../images/bg/bg.jpg) top left repeat;
+	}
+.logo img{
+	
+	margin-top:0px;
+	}
+.logo .search{
+	width:750px;
+	height:60px;
+	top:50px;
+	right:10px;
+	position:absolute;
+	background:#096;
+	border-radius:10px 10px;
+	}
+.logo input{
+	float:right;
+	width:600px;
+	top:10px;
+	left:50px;
+	position:absolute;
+	}
+.logo .tim_kiem{
+	border:2px solid #CCC;
+	width:80px;
+	height:40px;
+	right:5px;
+	top:9px;
+	position:absolute;
+	vertical-align:middle;
+	font:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:middle;
+	background:#F63;
+	}
+/*--------------------Tin công nghệ-----------------------------*/
+.tin_cong_nghe{
+	
+	}
+.tin_cong_nghe .col-md-8{
+	height:500px;
+	border:2px solid #CCC;
+	}
+.tin_cong_nghe .col-md-4{
+	
+	}
+.tin_cong_nghe .col-md-6 p{
+	top:290px;
+	left:25px;
+	position:absolute;
+	
+	}
+.tin_cong_nghe .col-md-6 {
+	
+		}
+
+.tin_cong_nghe .col-md-6 .khung_ngoai{
+	
+	 width:500px;
+	 height:350px;
+	 background: #333;
+	 opacity:0.4;
+	 filter:alpha(opacity=90);
+	 border:2px solid #000;
+	 top:0px;
+	 left:10px;
+	 position:absolute;
+	 display:none;
+	}	
+.tin_cong_nghe .col-md-6:hover .khung_ngoai{
+	display:block;
+		border:2px solid #CCC;
+		}
+.tin_cong_nghe .col-md-6:hover p{
+	top:200px;
+	left:8px;
+	position:absolute;
+	transform:scale(0.9,1.1);
+	font-weight:bold;
+	color:#C99;
+
+		}
+		
+		
+		
+.md-12{
+	height:300px;
+	width:400px;
+	margin-top:30px;
+	}		
+
+.tin_cong_nghe .col-md-4 {
+	
+		}
+.tin_cong_nghe  .col-md-4 p{
+	top:200px;
+	left:-10px;
+	position:absolute;
+	font-weight:bold;
+	transform:scale(0.8,0.9);
+	-webkit-transform:scale(0.8,0.9);
+	-moz-transform:scale(0.8,0.9);
+	-o-transform:scale(0.8,0.9);
+	-ms-transform:scale(0.8,0.9);
+	
+	}
+.tin_cong_nghe  .col-md-4 .khung_ngoai{
+	
+	 width:290px;
+	 height:250px;
+	 background: #333;
+	 opacity:0.4;
+	 filter:alpha(opacity=90);
+	 border:2px solid #000;
+	 top:0px;
+	 left:15px;
+	 position:absolute;
+	 display:none;
+	}	
+.tin_cong_nghe  .col-md-4:hover .khung_ngoai{
+	display:block;
+		border:2px solid #CCC;
+		}
+.tin_cong_nghe  .col-md-4:hover p{
+	top:150px;
+	left:-10px;
+	position:absolute;
+	transform:scale(0.8,1.1);
+	-webkit-transform:scale(0.8,1.1);
+	-moz-transform:scale(0.8,1.1);
+	-o-transform:scale(0.8,1.1);
+	-ms-transform:scale(0.8,1.1);
+	font-weight:bold;
+	color:#C99;
+
+		}
+.news .col-md-8{
+	height:330px;
+	width:700px;
+	border:2px solid #9F0;
+	}
+.news .col-md-8 .khung_ngoai{
+	height:270px;
+	width:650px;
+	top:50px;
+	left:31px;
+	position:absolute;
+	background: #CCC;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	display:none;
+	}
+.news .khung_ngoai img{
+	top:80px;
+	left :250px;
+	position:absolute;
+	display:none;
+	}
+.news .col-md-8:hover .khung_ngoai{
+	display:block;
+	
+	}
+.news .col-md-8:hover img{
+	display:block;
+	
+	}
+.news img:hover{
+	
+	}
+/*-----------------------------Sách-----------------------------*/
+.sach{
+	
+	margin-bottom:1%;
+	}
+.sach .col-md-3{
+	
+	}
+.sach .col-md-3 .btn-danger{
+		top:0px;
+		left:10px;
+		position:absolute;
+		display:none;
+		width:137px;
+		height:213px;
+		color: #FFF;
+		vertical-align:middle;
+		line-height:195px;
+		font-weight:bold;
+		font-size:19px;
+	}
+
+
+.sach .col-md-3:hover .btn-danger{
+	display:block;
+	opacity:0.5;
+		}
+.sach .col-md-3 p{
+	color:#306;
+	font-weight:bold;
+	}
+.sach .col-md-3 span{
+	font-weight:bold;
+	}
+.sach .col-md-3 .glyphicon{
+	color: #FC0;
+	}
+.sach .col-md-3{
+	
+	}
+/*----------------Thi nghiem*/
+.thi_nghiem .col-md-3 ìmg{
+	float:left;
+	}
+		/*Chi tiet*/
+		.chi_tiet{
+			width :210px;
+			height:140px;
+			border:2px solid #CCC;
+			background: #33C;
+			opacity:0.9;
+			filter:alpha(opacity=90);
+			top:0px;
+			left:15px;
+			position:absolute;
+			transform:rotate(10deg);
+			
+			display:none;
+			}
+		.thi_nghiem .col-md-3:hover .chi_tiet{
+			display:block;
+	}
+/*-----------------------Content-------------------------*/
+.content{
+	position: relative;
+	}
+/*------------------Menu_left----------------- */
+.menu_left ul li{
+	width :200px;
+	}
+ 
+
+/*-------------------------------footer-----------------*/
+.footer{
+	background:  #FF9;
+	padding:30px;
+	}
+.footer-1 p{
+	color:#930;
+	font:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	}
+.footer-2 p{
+	color: #903;
+	font:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	}
+.footer-3 img{
+	margin-bottom:13px;
+	}
+	/*------------------------------------------------------Dong ho-------------------------------*/
+	.col-md-12 .bg p{
+		background:#3C9;
+		width:150px; 
+		padding:10px; 
+		border-radius:10px;
+		-moz-border-radius:10px;
+		-ms-border-radius:10px;
+		-o-border-radius:10px;
+		-webkit-border-radius:10px;
+		margin-top:20px;
+		}
+	.col-md-12 .col-md-3 .media-body p{
+		background: #F1F1F1;
+		width:200px; 
+		padding:10px; 
+		border-radius:10px;
+		-moz-border-radius:10px;
+		-ms-border-radius:10px;
+		-o-border-radius:10px;
+		-webkit-border-radius:10px;
+		margin-top:20px;
+		}
+		
+	.col-md-12 .col-md-3 {
+			z-index:10000;
+			
+		}
+	.col-md-12 .col-md-3 .btn{
+			border:1px solid #999;
+			top:148px;
+			left:53px;
+			position:absolute;
+			display:none;
+		}
+		.col-md-12 .col-md-3 img{
+			z-index:1000;
+		}
+	.col-md-12 .col-md-3:hover{
+			border:1px solid #999;
+	
+			opacity:0.6;
+			filter:alpha(opacity=60);
+		}
+	.col-md-12 .col-md-3:hover .btn{
+		display:block;
+		width :150px;
+		background: #F60;
+		font-style:italic;
+		font-weight:bold;
+		color: #F00;
+	
+		}

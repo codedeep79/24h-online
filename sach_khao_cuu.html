@@ -1,0 +1,1019 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sach</title>
+<link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap-3.3.6-dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/thi_nghiem.css">
+<link rel="stylesheet" type="text/css" href="css/style_bootstrap.css">
+<link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+<script src="Bootstrap/bootstrap-3.3.6-dist/js/jquery.min.js"></script>
+<script src="Bootstrap/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="wow/animate.css">
+<script src="wow/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+</head>
+
+<body style="background:url(images/bg/quadrillebeige01.jpg)">
+<div class="container" style="background:#FFF">
+	<div class="col-sm-12 col-md-12">
+    	<!--head----------------------------------->
+        <div class="head">
+                <nav class="navbar navbar-default">
+                		<div class="navbar-header">
+                        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu_1">
+                            		<span class=" icon-bar"></span>
+                                    <span class=" icon-bar"></span>
+                                    <span class=" icon-bar"></span>
+                                    <span class=" icon-bar"></span>
+                                    <span class=" icon-bar"></span>
+                            </button>
+                        </div>
+                     <div class="wrap-head-1">
+                        <div class="collapse navbar-collapse" id="menu_1">
+                        		<ul class="nav navbar-nav">
+                                	<li><a href="#" data-toggle="modal" data-target=".kiem_tra">Kiểm tra đơn hàng</a>
+                                    		<div class="modal fade kiem_tra" role="dialog">
+                                            	<div class=" modal-dialog">
+                                                	<div class="modal-content">
+                                                    		<div class="modal-header">
+                                                            	<button class="btn btn-info close" data-dismiss="modal">
+                                                                	&times;
+                                                                </button> 
+                                                                <b>Kiểm tra đơn hàng</b>
+                                                					
+                                                            </div>
+                                                            
+                                                            <div class="modal-body">
+                                                            	<form class="form-horizontal">
+                                                                	<div class="form-group">
+                                                                    	<label>Email:</label>
+                                                                        <input type="text" class="form-control" placeholder="Email..">
+                                                                    </div>
+                                                                    
+                                                                    <div class="form-group">
+                                                                    	<label>Mã đơn hàng:</label>
+                                                                        <input type="text" class="form-control" placeholder="Nhập vào mã đơn hàng..">
+                                                                    </div>
+                                                                    <button type="button" class="btn btn-success">Kiểm tra</button>
+                                                                </form>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </li>
+                                    <li><a href="#" data-toggle="modal" data-target=".ma_hang">Tạo khiếu nại</a>
+                                    		<div class="modal ma_hang fade" role="dialog">
+                                            		<div class="modal-dialog">
+                                                    	<div class="modal-content">
+                                                        		<div class="modal-header">
+                                                                 <button class="btn btn-default close" data-dismiss="modal" style="margin-top:2px">&times;</button>
+                                                                	<p><b>Tạo khiếu nại</b></p>
+                                                                   
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                		<form class=" form-horizontal" role="form">
+                                                                        	<div class="form-group">
+                                                                                <label><b><i>Họ và tên</i></b></label>
+                                                                                <input class="form-control" type="text" placeholder="Nhập vào họ và tên....">
+                                                                             </div>
+                                                                             
+                                                                             <div class="form-group">
+                                                                                <label><b><i>Số điện thoại</i></b></label>
+                                                                                <input class="form-control" type="text" placeholder="Nhập vào số điện thoại...">
+                                                                             </div>
+                                                                             
+                                                                             <div class="form-group">
+                                                                                <label><b><i>Số CMND:</i></b></label>
+                                                                                <input class="form-control" type="text" placeholder="Nhập vào số chứng minh nhân dân..">
+                                                                             </div>
+                                                                             	<div class="form-group">
+                                                                                	<label >Mã đơn hàng:</label>
+                                                                                    <input type="text " placeholder="Mã đơn hàng.." class="form-control">
+                                                                                </div>
+                                                                                
+                                                                                <div class="form-group">
+                                                                                	<label> Mã sản phẩm: </label>
+                                                                                    <input type="text " class="form-control" placeholder="Mã sản phẩm">
+                                                                                </div>
+                                                                                <div class="checkbox">
+                                                                                	<b>Vấn đề sản phẩm</b><br/>
+                                                                                    <label><input type="checkbox">Sản phẩm</label><br/>
+                                                                                    <label><input type="checkbox">Chính sách giá</label><br/>
+                                                                                    <label><input type="checkbox">Dịch vụ</label>
+                                                                                </div> 
+                                                                                <b>Nội dung</b><br/> 
+                                                                                <textarea style="width:500px; height:191px"></textarea>
+                                                                                <button type="button" class="btn btn-info">Gửi <span class="glyphicon glyphicon-arrow-right"</button>
+                                                                        </form>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                    </li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-phone"></span><b>Hotline: <span style="color:#00F;">1900-123-123</span></b></a></li>
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                	<li >
+                                    		<a data-toggle="modal" data-target=".dat_hang" style="color:#30F;font-weight:bold; font-style:italic;">Đăng nhập</a>
+                                    		<div class="dat_hang modal fade" role="dialog">
+                                            	<div class="modal-dialog">
+                                                	<div class="modal-content">
+                                                    	<div class="modal-header">
+                                                        	<button type="button" data-dismiss="modal" class="close">&times;</button>
+                                                            <button class="btn btn-success" style="color: #060; font:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif">Login</button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                        		<div class="input-group">
+                                                                	<label>Email (*) <input type="text" class="form-control"> </label>
+                                                                    <label>Password (*) <input type="text" class="form-control"> </label>
+                                                                    <p style="color:#00C; font:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif">Quên mật khẩu</p>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </li>
+                                    <li>
+                                    		<a href="#" data-toggle="modal" data-target=".dang_ky" style="color:#03F;font-weight:bold; font-style:italic;">Đăng ký</a>
+                                    		<div class="modal fade dang_ky">
+                                            	<div class="modal-dialog">
+                                                	<div class="modal-content">
+                                                    	<div class="modal-header">
+                                                        		<button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                <button type="button" class="btn btn-info">Registry</button>
+                                                        </div>
+                                                        		
+                                                        <div class="modal-body">
+                                                        		<div class="input-group">
+                                                                	<label>Họ và tên (*) 
+                                                                    	<input type="text" class="form-control">
+                                                                    </label>
+                                                                    <label>Email (*) 
+                                                                    	<input type="text" class="form-control">
+                                                                    </label>
+                                                                    <label>Mật khẩu (*) 
+                                                                    	<input type="password" class="form-control">
+                                                                        <p style="font-size:9px;color:#999">Ít nhất 8 kí tự</p>
+                                                                    </label>
+                                                                     <div class="form-group">
+                                                                         <label >Giới tính (*) 
+                                                                            <select >
+                                                                                <option>Nam</option>
+                                                                                <option>Nữ</option>
+                                                                            </select>
+                                                                        </label>
+                                                                     </div>
+                                                                    <label class="col-md-offset-2">Tôi đã đọc và đồng ý với <a href="#">đều khoản sử dụng</a> của <b>24H ONLINE</b></label>
+                                                                    <button type="button" class="btn btn-danger"><b><i>Đăng ký</i></b></button>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </li>
+                                     <li><a href="#"><span class="glyphicon glyphicon-bell"></span><p class="badge">0</p></a></li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+                                   
+                                </ul>
+                        </div>
+                     </div>
+                </nav> 
+                <div class="logo">
+                	<div class="wow bounceIn" data-wow-duration="2s" ><img src="images/logo.gif" width="200" height="200"  alt="logo" class="img-responsive img-rounded" /></div>
+                    <div class="search">
+                    	<input type="search" class="form-control " placeholder="Search ... " >
+                        <span class="tim_kiem btn btn-danger">Tìm kiếm</span>
+                    </div>
+                </div>
+        </div>
+        <!--content------------------------------->
+        <div class="content">
+        		<nav class="navbar navbar-default" style="width:125%;margin-left:-150px;  border:1px solid #CCC;">
+                	<div class="navbar-header" style="margin-left:10%;">
+                    		<a  href="Index.html" class="navbar-brand">Danh mục sản phẩm</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                    		<li><a href="#"><b>Hàng mới</b></a></li>
+                            <li><a href="#"><b>Daily deal</b></a></li>
+                            <li><a href="#"><b>Hàng outlet</b></a></li>
+                            <li><a href="#"><b>Tin tức</b></a></li>
+                    </ul>
+                </nav>
+                <div class="menu_left">
+                		<ul class="nav nav-pills nav-stacked" role="tablist">
+                        	<li class="active"><a href="#" >Danh mục >> Sách</a></li>
+                            <li style="background: #9CF">
+                            		<a href="tieu_thuyet.html"><b>Tiểu thuyết</b><span class="glyphicon glyphicon-arrow-right" style="right:2px;top:12px;position:absolute;"></span></a>
+                            		
+                                    
+                          </li>
+                            <li >
+                            		<a href="sach_chuyen_nghanh_1.html" ><b>Sách chuyên nghành</b><span class="glyphicon glyphicon-arrow-right" 			             				style="right:2px;top:12px;position:absolute;"></span></a>
+                            		
+                                   
+                          </li>
+                          
+                           <li>
+                            		<a href="sach_khao_cuu.html"><b>Sách khảo cứu</b><span class="glyphicon glyphicon-arrow-right" 			             				style="right:2px;top:12px;position:absolute;"></span></a>
+                            		
+                                   
+                          </li>
+                          
+                          
+                  </ul>
+                </div>
+                <div class="btn btn-danger" style="margin-bottom:10px">Sách mới</div>
+                <div class="col-md-12 sach">
+                		<div class="col-md-3" >
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_1.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p>TỪ HI THÁI HẬU<br/> - GIẤC MỘNG VƯƠNG<br/> PHI</p>
+                                    </div>
+                                </div>
+                            </div>
+   
+                                    <span >88 000 VNĐ</span><br/>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                   
+                                    <div class=" btn btn-danger"  data-toggle="modal" data-target=".project">
+                                            Xem chi tiết
+                                   </div>
+                  
+                        </div>	
+                  		    
+                        	     <div class="modal fade project">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                         <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p><span style="color:#F63;">Xin trân trọng giới thiệu</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>			
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_2.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p>HỒN SỬ VIỆT - CÁC <br/>TRUYỀN THUYẾT & GIAI<br/> THOẠI NỔI TIẾNG</p>
+                                    </div>
+                                </div>
+                            </div>
+                            	<span >31.200 VNĐ</span><br/>
+                                 <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                                <span class="glyphicon glyphicon-star"></span>
+                            
+                            	<div class=" btn btn-danger" data-toggle="modal" data-target=".meo_vat">
+                           			Xem chi tiết
+                           		</div>
+                                
+                           
+                        </div>	
+                        
+                        	<div class="modal fade meo_vat">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div> 
+                                                        <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p><span style="color:#F63;">Xin trân trọng giới thiệu</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_3.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p>ĐỊA LÝ TOÀN THƯ</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >20 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger " data-toggle="modal" data-target=".frontpage">
+                           			Xem chi tiết
+                           	</div>
+                            
+                            
+                        </div>	
+                        
+                        
+                        		<div class="modal fade frontpage">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                         <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p><span style="color:#F63;">Xin trân trọng giới thiệu</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_4.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:uppercase">THEO DÒNG LỊCH SỬ<br/> - ĐỊNH ĐÔ</p>
+                                    </div>
+                                </div>
+                            </div>
+                             <span >29 600 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".outlook">
+                           			Xem chi tiết
+                           	</div>
+              
+                        </div>	
+              			          
+                        	   <div class="modal fade outlook">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                         <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p><span style="color:#F30">THEO DÒNG LỊCH SỬ - ĐỊNH ĐÔ</span><br/>
+
+Kỷ niệm ngàn năm Thăng Long, chúng tôi trân trọng giới thiệu cùng bạn đọc cuốn sách (Định đô; Thế thời phải thế; Bước ngoặt) trong bộ Theo dòng lịch sử, viết về tiến trình lịch sử từ năm Canh Tuất (1010), năm bắt đầu vua Lý Công Uẩn dời đô từ Hoa Lư về Thăng Long đến Ngày Độc Lập (2-9-1945).<br/>
+
+Định đô: gồm các bài về thời Lý-Trần, đến cuối nhà Hồ và thời thuộc Minh (từ năm 1010 đến năm 1418).<br/>
+
+Thế thời phải thế: gồm các bài viết về thời Bắc Bình vương Lê Lợi khởi nghĩa, nhà Lê Sơ, nhà Mạc, thời Lê Trung Hưng và nhà Tây Sơn (từ năm 1418 đến năm 1802).<br/>
+
+Bước ngoặt: gồm các bài ciết về thời nhà Nguyễn, thời Pháp thuộc, đến cuộc cách mạng giải phóng dân tộc (từ năm 1802 đến năm 1945).<br/>
+
+Các bài viết đã đăng trên Báo Người Hà Nội cuối tuần, từ số 7, tháng 2 năm 2009 đến nay.<br/>
+
+Lối viết ngắn gọn, súc tích, thiên về câu chuyện và chi tiết, trình bày giản dị nên dễ đọc. Xâu chuỗi lại các bài viết này ta có thể nắm được những nét chính của ngàn năm Thăng Long - Hà Nội.
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                </div>  
+                
+                <div class="col-md-12 sach">
+                		<div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_5.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:uppercase">VIỆT SỬ - NHỮNG<br/> ĐIỀU HAY NÊN BIẾT<br/> (TẬP 3)
+
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >109 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".quyenluckhatvong">
+                           			Xem chi tiết
+                           	</div>
+              
+                        </div>
+                        
+                        
+                         <div class="modal fade quyenluckhatvong">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div> 
+                                                        <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>﻿﻿<span style="color:#F30">VIỆT SỬ - NHỮNG ĐIỀU HAY NÊN BIẾT (TẬP 3)</span><br/>
+
+Việt Nam là một quốc gia có bề dày lịch sử, trải hàng ngàn năm đấu tranh và phát triển, đã có biết bao nhân vật, sự kiện để lại dấu ấn đậm nét, được ghi ghép, ghi nhớ và lưu truyền trong đời sống xã hội. Có thể nói, đó chính là một trong những động lực để dân tộc ta vững vàng vượt qua mọi khó khăn thử thách; vì vậy học tập, tìm hiểu lịch sử nước nhà sẽ giúp mỗi người Việt Nam tự hào hơn về truyền thống vẻ vang, những trang sử hào hùng mà cha ông đã viết lên trong suốt tiến trình dựng nước, giữ nước.<br/>
+
+Nhiều người lầm tưởng rằng lịch sử một lĩnh vực khô khan với những sự kiện, nhân vật được trải dàn theo thời gian, mà không biết rằng nếu chú ý tìm hiểu sẽ khám phá ra nhiều điều thú vị, thấy được những nét độc đáo, những chi tiết sinh động về những dấu ấn mà ta tưởng chừng đã rõ, về những con người mà ta tưởng chùng đã hiểu. Đúng như nhà sử học triều Hậu Lê là Vũ Quỳnh đã nói: "Người Việt dựng nước nguyên từ thời Hùng Vương, nếp văn minh dần dần tăng tiến như nước thời Hùng Vương, nếp văn minh dần dần tăng tiến như nước tràn chén". Cõi Lĩnh Nam có nhiều sự lạ, nên truyện được sáng tác, không đợi tạc vào đá, khắc vào văn mà vẫn lưu hành ở lòng người, ở bia miệng. Từ em bé tuổi thơ đến cụ già tóc bạc đều trọng đạo và yêu thích, lấy đó để răn đời, cứu đời. Rõ ràng việc làm rất có quan hệ đến cương thường, phong hóa, đâu chỉ là chuyện bổ ích không đáng kể" (Tân đính Lĩnh Nam chích quái).
+
+
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                             </div>	
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_6.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:uppercase">VIỆT SỬ - NHỮNG<br/> ĐIỀU HAY NÊN BIẾT<br/> (TẬP 2)
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >131 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".thuattrinuoc">
+                           			Xem chi tiết
+                           	</div>
+            
+                        </div>	
+                        
+                        
+                             <div class="modal fade thuattrinuoc">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                         <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p><span style="color:#F30">VIỆT SỬ - NHỮNG ĐIỀU HAY NÊN BIẾT (TẬP 2)</span><br/>
+
+Việt Nam là một quốc gia có bề dày lịch sử, trải hàng ngàn năm đấu tranh và phát triển, đã có biết bao nhân vật, sự kiện để lại dấu ấn đậm nét, được ghi ghép, ghi nhớ và lưu truyền trong đời sống xã hội. Có thể nói, đó chính là một trong những động lực để dân tộc ta vững vàng vượt qua mọi khó khăn thử thách; vì vậy học tập, tìm hiểu lịch sử nước nhà sẽ giúp mỗi người Việt Nam tự hào hơn về truyền thống vẻ vang, những trang sử hào hùng mà cha ông đã viết lên trong suốt tiến trình dựng nước, giữ nước.<br/>
+
+Nhiều người lầm tưởng rằng lịch sử một lĩnh vực khô khan với những sự kiện, nhân vật được trải dàn theo thời gian, mà không biết rằng nếu chú ý tìm hiểu sẽ khám phá ra nhiều điều thú vị, thấy được những nét độc đáo, những chi tiết sinh động về những dấu ấn mà ta tưởng chừng đã rõ, về những con người mà ta tưởng chùng đã hiểu. Đúng như nhà sử học triều Hậu Lê là Vũ Quỳnh đã nói: "Người Việt dựng nước nguyên từ thời Hùng Vương, nếp văn minh dần dần tăng tiến như nước thời Hùng Vương, nếp văn minh dần dần tăng tiến như nước tràn chén". Cõi Lĩnh Nam có nhiều sự lạ, nên truyện được sáng tác, không đợi tạc vào đá, khắc vào văn mà vẫn lưu hành ở lòng người, ở bia miệng. Từ em bé tuổi thơ đến cụ già tóc bạc đều trọng đạo và yêu thích, lấy đó để răn đời, cứu đời. Rõ ràng việc làm rất có quan hệ đến cương thường, phong hóa, đâu chỉ là chuyện bổ ích không đáng kể" (Tân đính Lĩnh Nam chích quái).</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_7.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:uppercase">BAN THỐNG NHẤT TRUNG<br/> ƯƠNG TRONG CUỘC KHÁNG<br/> CHIẾN CHỐNG MỸ CỨU<br/> NƯỚC (1954-1975)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >134 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".honsuviet ">
+                           			Xem chi tiết
+                           	</div>
+                            
+                        </div>	
+ 
+                                  <div class="modal fade honsuviet">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                        <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>﻿<span style="color:#F30">Xin trân trọng giới thiệu</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_8.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:uppercase">SỰ THẬT VÀ BỊA ĐẶT<br/> VỀ LĂNG LENIN VÀ<br/>  KHU MỘ BÊN TƯỜNG<br/>  THÀNH KREMLI
+
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >84 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".sotaytinhoc ">
+                           			Xem chi tiết
+                           	</div>
+             
+                        </div>	
+                        
+                        
+                               <div class="modal fade sotaytinhoc">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                         <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p><span style="color: #C30">SỰ THẬT VÀ BỊA ĐẶT VỀ LĂNG LENIN VÀ KHU MỘ BÊN TƯỜNG THÀNH KREMLI
+</span><br/>
+
+Lăng Lenin và Khu mộ danh dự bên tường thành Kremli từng là biểu tượng hào hùng một thời của chế độ Xô viết, in sâu trong trái tim của người dân Nga gần trọn thế kỷ. Những thăng trầm của lịch sử đều được phản chiếu ở chính ngôi lăng này: việc sơ tán thi hài Lenin để tránh bom đạn, thi hài Stalin được đưa vào Lăng chưa được bao lâu rồi lại lặng lẽ đưa ra…<br/>
+
+Nhưng vật đổi sao dời, cuộc cách mạng long trời lở đất đã lùi xa. Giờ đây Lăng Lenin đang đối mặt với những nguy cơ gì? Cải táng hay giữ nguyên thi hài Lenin?....<br/>
+
+Một cuốn sách đầy thú vị dành cho những ai không chỉ quan tâm tới lịch sử Liên Xô, mà còn quan tâm tới các lăng mộ, xác ướp từ cổ chí kim.
+
+
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                       
+                </div>       
+                       <div class="col-md-12 sach">
+                		<div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_9.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:uppercase">BIẾN ĐỔI KHÍ HẬU<br/> - MỘT THỜI ĐẠI MỚI<br/> TRÊN TRÁI ĐẤT</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >54 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".nuaduongxuatgia ">
+                           			Xem chi tiết
+                           	</div>
+                            
+                                
+                        </div>
+                        
+                        
+                        
+                              <div class="modal fade nuaduongxuatgia">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div> 
+                                                        <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>﻿<span style="color:#C30">Xin trân trọng giới thiệu</span><br/></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>	
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_10.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:uppercase">MẶT TRẬN DÂN TỘC<br/> GIẢI PHÓNG MIỀN NAM <br/>VIỆT NAM (1960-1977)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >34 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".neucomotngay ">
+                           			Xem chi tiết
+                           	</div>
+                            
+                            
+                              
+                        </div>
+                        
+                               <div class="modal fade neucomotngay">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                         <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>﻿<span style="color: #C30">Xin trân trọng giới thiệu</span><br/></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>	
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_11.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:uppercase">THEO DÒNG LỊCH SỬ<br/> - BƯỚC NGOẶT
+
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >134 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".saynangsaigon_1 ">
+                           			Xem chi tiết
+                           	</div>
+                            
+                              
+                        </div>	
+                        
+                        
+                        		  <div class="modal fade saynangsaigon_1">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div> 
+                                                        <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p><span style="color: #C30">THEO DÒNG LỊCH SỬ - BƯỚC NGOẶT
+</span><br/>
+
+Kỷ niệm ngàn năm Thăng Long, chúng tôi trân trọng giới thiệu cùng bạn đọc cuốn sách (Định đô; Thế thời phải thế; Bước ngoặt) trong bộ Theo dòng lịch sử, viết về tiến trình lịch sử từ năm Canh Tuất (1010), năm bắt đầu vua Lý Công Uẩn dời đô từ Hoa Lư về Thăng Long đến Ngày Độc Lập (2-9-1945).<br/>
+
+Định đô: gồm các bài về thời Lý-Trần, đến cuối nhà Hồ và thời thuộc Minh (từ năm 1010 đến năm 1418).<br/>
+
+Thế thời phải thế: gồm các bài viết về thời Bắc Bình vương Lê Lợi khởi nghĩa, nhà Lê Sơ, nhà Mạc, thời Lê Trung Hưng và nhà Tây Sơn (từ năm 1418 đến năm 1802).<br/>
+
+Bước ngoặt: gồm các bài ciết về thời nhà Nguyễn, thời Pháp thuộc, đến cuộc cách mạng giải phóng dân tộc (từ năm 1802 đến năm 1945).<br/>
+
+Các bài viết đã đăng trên Báo Người Hà Nội cuối tuần, từ số 7, tháng 2 năm 2009 đến nay.<br/>
+
+Lối viết ngắn gọn, súc tích, thiên về câu chuyện và chi tiết, trình bày giản dị nên dễ đọc. Xâu chuỗi lại các bài viết này ta có thể nắm được những nét chính của ngàn năm Thăng Long - Hà Nội.
+
+
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_12.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:uppercase">ĐỊA DANH HỌC VIỆT NAM
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >135 000 VNĐ</span><br/>
+                             <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger"  data-toggle="modal" data-target=".saynangsaigon_2 ">
+                           			Xem chi tiết
+                           	</div>
+                            
+                          
+                        </div>	
+                        
+                        
+                                <div class="modal fade saynangsaigon_2 ">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div> 
+                                                        <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p><span style="color:#C30">Xin trân trọng giới thiệu</span><br/></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                         
+                        
+                </div>   
+                
+                <div class="col-md-12 sach">
+                		<div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_13.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:uppercase">ĐẠI CƯƠNG LỊCH SỬ<br/> TƯ TƯỞNG CHÍNH TRỊ<br/> VIỆT NAM TỪ THẾ KỶ<br/> XVI ĐẾN THẾ KỶ XIX
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >74 000 VNĐ</span><br/>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".chuyendungcamnhat">
+                           			Xem chi tiết
+                           	</div>
+                            
+                           
+                        </div>	
+                        
+                        	    <div class="modal fade chuyendungcamnhat">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div> 
+                                                        <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p><span style="color:#C30">ĐẠI CƯƠNG LỊCH SỬ TƯ TƯỞNG CHÍNH TRỊ VIỆT NAM TỪ THẾ KỶ XVI ĐẾN THẾ KỶ XIX
+</span><br/>
+
+﻿Nội dung cuốn sách "Đại cương lịch sử tư tưởng chính trị Việt Nam từ thế kỷ XVI đến thế kỷ XIX" làm rõ nguyên nhân, những điều kiện kinh tế - xã hội dẫn đến sự suy giảm của tư tưởng chính trị Nho giáo thời kỳ này; khảo sát mô hình nhà nước vua Lê - chúa Trịnh thời Lê Trung Hưng - một chính quyền lưỡng chế, thực chất là sự tìm kiếm, thể nghiệm một mô hình mới nhưng không thành công của các chúa Trịnh, biểu hiện của sự suy giảm và mất vai trò độc tôn của Nho giáo; phân tích tìm hiểu đời sống tư tưởng văn hóa thời Mạc - Lê - Trịnh để cho thấy hệ tư tưởng chính thống nhà nước (Tống Nho) đã suy yếu và dần mất vị thế độc tôn trước sự trỗi dậy của nền văn hóa dân gian với các trào lưu tư tưởng phi chính thống (Đạo, Phật) tác động cả đến tầng lớp quan liêu nho sĩ, dẫn đến sự hòa quyện, đan xen của các tư tưởng với sự xuất hiện của hiện tượng Tam giáo đồng nguyên mới, phi nhà nước; nghiên cứu tư tưởng chính trị Nho giáo triều Nguyễn thế kỷ XIX (tư tưởng chính trị Nho giáo của Minh Mệnh và tư tưởng canh tân đất nước của Nguyễn Trường Tộ) - điểm nhấn cuối cùng của tư tưởng chính trị Nho giáo tại Việt Nam.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_14.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:uppercase">SỬ KÝ TƯ MÃ THIÊN
+
+
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >34 000 VNĐ</span><br/>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".powerpoint" >
+                           			Xem chi tiết
+                           	</div>   
+                        </div>	
+                        
+                        
+                                <div class="modal fade powerpoint">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div> 
+                                                        <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p>﻿<span style="color:#C30">SỬ KÝ TƯ MÃ THIÊN
+</span><br/>
+
+﻿Đối với văn hóa thế giới, quyển Sử ký của Tư Mã Thiên chiếm một địa vị đặc biệt. Nó là một công trình sử học lớn nhất của Trung Quốc và là một trong những quyển sử có tiếng nhất của thế giới. Nhưng một điều còn làm chúng ta ngạc nhiên hơn là công trình khoa học lớn lao ấy đồng thời lại là một trong những tác phẩm văn học ưu tú của nhân loại. Người Trung Hoa xem nó là tác phẩm lớn nhất về văn xuôi trong nền văn học cổ Trung Quốc, là tác phẩm cổ điển ngang hàng với thơ của Đỗ Phủ. <br/>
+Sử ký là cả một thế giới. Nó làm thỏa mãn tất cả mọi người. Người nghiên cứu sử thì tìm thấy ở đấy một kho tài liệu vô giá, chính xác, với một giá trị tổng hợp rất cao. Nhà nghiên cứu tư tưởng tìm thấy qua Sử ký "một trong những nhà tư tưởng vĩ đại nhất của thời cổ đại". Người bình thường tìm thấy vô số những hình tượng điển hình, những câu chuyện hấp dẫn, những con người đầy sức sống mãnh liệt. Và không phải chỉ có thế người nghiên cứu văn học còn tìm thấy ở đấy một tác phẩm văn học mãi mãi tươi trẻ như sự sống, họ thấy ở đấy một tâm hồn, một tâm sự đau xót đầy sức mạnh của thơ trữ tình, "một tập Ly tao không vần" như lời đánh giá của Lỗ Tấn.
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_15.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:uppercase">HỎI ĐÁP SỰ KIỆN<br/> LỊCH SỬ VIỆT NAM (TẬP 2)
+</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >56 000 VNĐ</span><br/>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                             <span class="glyphicon glyphicon-star"></span>
+                             
+                             <div class=" btn btn-danger" data-toggle="modal" data-target=".120saclenh ">
+                           			Xem chi tiết
+                           	</div>
+                            
+                            
+                              
+                        </div>	
+                        
+                                  <div class="modal fade 120saclenh">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                         <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p><span style="color:#C30">HỎI ĐÁP SỰ KIỆN LỊCH SỬ VIỆT NAM (TẬP 2)
+</span><br/>
+
+﻿Ngày nay, khi hội nhập đã và đang trở thành một trào lưu mạnh mẽ trong thế giới hiện đại thì tìm về cội nguồn, tìm hiểu truyền thống đấu tranh chống thiên nhiên, chống ngoại xâm, đặc trưng gắn kết dân tộc là một điều rất quan trọng và rất cần thiết bởi hiểu rõ mình sẽ giúp cho quá trình hòa đồng vào thế giới nhanh hơn, ổn định và bền vững hơn.<br/>
+Lịch sử Việt Nam trải hàng nghìn năm với những biến đổi, thịnh suy, hưng vong của các triều đại, thể hiện qua các sự kiện lịch sử. Các sự kiện ấy không chỉ cho thấy đặc điểm, vị trí địa lý của mỗi vùng đất, sự tác động ảnh hưởng của bên ngoài mà còn cho thấy rõ nội lực của dân tộc, đặc biệt khi phải đối mặt với tình cảnh hiểm nghèo. Vào những thời khắc ấy, cá nhân đóng một vai trò rất đặc biệt, có thể làm đảo lộn tình thế, hoàn cảnh, tạo nên sự cường thịnh hay suy vong của một triều đại, một chỉnh thể. Vì thế, bộ sách "Hỏi đáp sự kiện lịch sử Việt Nam" sẽ tập trung trình bày những sự kiện lịch sử với tư cách là những bước ngoặt, đánh dấu sự thay đổi về chính trị, kinh tế, văn hóa trong một giai đoạn phát triển nhất định.<br/>
+
+Mục lục:<br/>
+
+1. Tháng 10 năm 1459 diễn ra sự kiện gì?<br/>
+2. Tháng 6 năm 1460 có sự kiện gì đặc biệt?<br/>
+3. Tháng 7 năm 1460 có sự kiện gì?<br/>
+4. Tháng 8 năm 1460 có sự kiện gì?<br/>
+5. Tháng 3 năm 1461 diễn ra sự kiện gì?<br/>
+6. Tháng 2 năm 1462 có sự kiện gì?
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                        
+                        <div class="col-md-3">
+                        	<div class="media">
+                        		<img src="images/sach/sach_kc_16.jpg" width="133" height="89"  alt="" class="img-responsive media-object"/>
+                                <div class="media-body">
+                                	<div class="media-heading">
+                                    		<p style="text-transform:uppercase">HỎI ĐÁP SỰ KIỆN<br/> LỊCH SỬ VIỆT NAM (TẬP 1)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span >25 600 VNĐ</span><br/>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            
+                            <div class=" btn btn-danger" data-toggle="modal" data-target=".tutuonghochiminh ">
+                           			Xem chi tiết
+                           	</div>
+                            
+                              
+                        </div>	
+                        
+                                <div class="modal fade tutuonghochiminh">
+                                    	<div class="modal-dialog">
+                                        	<div class="modal-content">
+                                            	<div class="modal-header">
+                                                		<button type="button"  class="close" data-dismiss="modal">&times;</button>
+                                                        <div class="btn btn-danger">Thông tin chi tiết</div>
+                                                         <a href="dat_hang.html"> <div class="btn btn-success ">Đặt hàng</div></a>
+                                                </div>
+                                                
+                                                <div class="modal-body">
+                                                		<p><span style="color:#C30">HỎI ĐÁP SỰ KIỆN LỊCH SỬ VIỆT NAM (TẬP 1)
+</span><br/>
+
+﻿Ngày nay, khi hội nhập đã và đang trở thành một trào lưu mạnh mẽ trong thế giới hiện đại thì tìm về cội nguồn, tìm hiểu truyền thống đấu tranh chống thiên nhiên, chống ngoại xâm, đặc trưng gắn kết dân tộc là một điều rất quan trọng và rất cần thiết bởi hiểu rõ mình sẽ giúp cho quá trình hòa đồng vào thế giới nhanh hơn, ổn định và bền vững hơn.<br/>
+Lịch sử Việt Nam trải hàng nghìn năm với những biến đổi, thịnh suy, hưng vong của các triều đại, thể hiện qua các sự kiện lịch sử. Các sự kiện ấy không chỉ cho thấy đặc điểm, vị trí địa lý của mỗi vùng đất, sự tác động ảnh hưởng của bên ngoài mà còn cho thấy rõ nội lực của dân tộc, đặc biệt khi phải đối mặt với tình cảnh hiểm nghèo. Vào những thời khắc ấy, cá nhân đóng một vai trò rất đặc biệt, có thể làm đảo lộn tình thế, hoàn cảnh, tạo nên sự cường thịnh hay suy vong của một triều đại, một chỉnh thể. Vì thế, bộ sách "Hỏi đáp sự kiện lịch sử Việt Nam" sẽ tập trung trình bày những sự kiện lịch sử với tư cách là những bước ngoặt, đánh dấu sự thay đổi về chính trị, kinh tế, văn hóa trong một giai đoạn phát triển nhất định.<br/>
+
+Mục lục:<br/>
+
+1. Tháng 10 năm 1459 diễn ra sự kiện gì?<br/>
+2. Tháng 6 năm 1460 có sự kiện gì đặc biệt?<br/>
+3. Tháng 7 năm 1460 có sự kiện gì?<br/>
+4. Tháng 8 năm 1460 có sự kiện gì?<br/>
+5. Tháng 3 năm 1461 diễn ra sự kiện gì?<br/>
+6. Tháng 2 năm 1462 có sự kiện gì?
+</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                                  <!--pagination----------------------->
+               
+                                 
+                   </div>
+                
+               
+               
+                <!-----------------huong dan ---------------------->
+                <div class="huong_dan col-md-12" style="margin-top:50px;">
+                		<div class="col-md-3">
+                                    <div class="wow bounceInLeft" data-wow-duration="3s"><img src="images/huong dan van chuyen/hd_1.jpg" width="75" height="74"  alt="" class="img-responsive media-object pull-left" /></div>
+                                    <div class="wow bounceIn" data-wow-duration="5s">
+                                        <p style="margin-top:7px; font-size:15px;"><b><i>Bước 1:</i></b></p>
+                                        <p ><i>Người mua tạo đơn hàng</i></p>
+                                    </div>
+                        </div>
+                        
+                        <div class="col-md-3">
+                        			<div class="wow bounceInLeft" data-wow-duration="3s"><img src="images/huong dan van chuyen/hd_2.jpg" width="75" height="74"  alt="" class="img-responsive media-object pull-left" /></div>
+                                      <div class="wow bounceIn" data-wow-duration="5s">
+                                            <p style="margin-top:7px; font-size:15px;"><b><i>Bước 2:</i></b></p>
+                                            <p ><i>Người mua thanh toán tiền hàng</i></p>
+                                      </div>
+                        </div>
+                        
+                        <div class="col-md-3">
+                        			<div class="wow bounceInLeft" data-wow-duration="3s"><img src="images/huong dan van chuyen/hd_3.jpg" width="75" height="74"  alt="" class="img-responsive media-object pull-left" /></div>
+                                    <div class="wow bounceIn" data-wow-duration="5s">
+                                            <p style="margin-top:7px; font-size:15px;"><b><i>Bước 3:</i></b></p>
+                                            <p ><i><span style="color:#00F;font-size:13px;font-weight:bold;">ONLINE 24H</span> vận chuyển quốc tế và khai báo hải quan</i></p>
+                                     </div>
+                        </div>
+                        
+                        <div class="col-md-3">
+                        			<div class="wow bounceInLeft" data-wow-duration="3s"><img src="images/huong dan van chuyen/hd_4.jpg" width="75" height="74"  alt="" class="img-responsive media-object pull-left" /></div>
+                                     <div class="wow bounceIn" data-wow-duration="5s">
+                                            <p style="margin-top:7px; font-size:15px;"><b><i>Bước 4:</i></b></p>
+                                            <p ><i>ONLINE 24H giao hàng tận nhà</i></p>
+                                      </div>
+                        </div>
+                </div>
+        </div>
+        		
+        <!--footer------------------------------->
+        <div class="col-md-12 footer">
+        	<div class="wow bounceIn" data-wow-duration="5s">
+                <div class="col-md-4 footer-1">
+                		<p><b>Với rất nhiều sản phẩm đa dạng phong phú, ONLINE 24H sẽ cam kết đáp ứng mọi nhu cầu sản phẩm của khách hàng  </b></p>
+                        <p><b>Miễn phí giao hàng toàn quốc</b></p>
+                        <p><b>Nhận hàng tận tay sau 2-3 tuần</b></p>
+                        <p><b><i>Hỗ trợ nhiệt tình các ngày trong tuần</i></b></p>
+                </div>
+                
+                <div class="col-md-4  footer-2">
+                		<a href="gioithieu.html"><p><b>Giới thiệu về chúng tôi</b></p></a>
+                        <a href="huong_dan.html"><p><b>Hướng dẫn mua hàng trên ONLINE 24H</b></p></a>
+                        <a href="lien_he.html"><p><b>Liên hệ với 24H ONLINE</b></p></a>
+                        <a href="faqs.html"><p><b><i>FAQs</i></b></p></a>
+                </div>
+            </div>
+                  
+                <div class="col-md-4 footer-3">
+                		<div class="wow shake"><p style="font-size:18px; color:#003;">	<b><i>CHẤP NHẬN THANH TOÁN</i></b></p></div>
+                        <div class="media">
+                        		<div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_1.gif" width="86" height="41"  alt="" class="media-object pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_2.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_3.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_4.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_5.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_6.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_7.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_8.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                                 <div class="wow bounceOut" data-wow-duration="4s"><img src="images/icon_footer/thanh_toan_9.gif" width="86" height="41"  alt="" class="media-object  pull-left "/></div>
+                        </div>
+                </div>
+                
+                
+        </div>
+    </div>
+</div>
+</body>
+</html>
